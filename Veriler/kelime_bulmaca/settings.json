@@ -14,14 +14,14 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "azınlık",
-      "son_harf": "k"
+      "son_kelime": "kurşun",
+      "son_harf": "n"
     }
   ],
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "535033289346514964"
+      "son_kelime_yazan": "264052871140474880"
     }
   ],
   "puanlar": [
@@ -30,11 +30,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 354
+          "puan": 465
         },
         {
           "client_id": "264052871140474880",
-          "puan": 342
+          "puan": 456
         }
       ]
     }
@@ -200,7 +200,82 @@
         "kazma",
         "anzak",
         "kazara",
-        "azınlık"
+        "azınlık",
+        "kızamık",
+        "karışık",
+        "kan",
+        "nakil",
+        "lif",
+        "fren",
+        "numara",
+        "arama",
+        "ateş",
+        "şekil",
+        "lezzet",
+        "taksirat",
+        "timsah",
+        "halı",
+        "ısınma",
+        "allah",
+        "halk",
+        "kreş",
+        "şark",
+        "karış",
+        "şirket",
+        "tabaka",
+        "askeri",
+        "iklim",
+        "müzikal",
+        "liberal",
+        "leh",
+        "hela",
+        "ahmak",
+        "kaka",
+        "azı",
+        "ısırgan",
+        "nane",
+        "ebegümeci",
+        "inzibat",
+        "taarruz",
+        "zil",
+        "lokomotif",
+        "forma",
+        "atıf",
+        "fitil",
+        "levrek",
+        "kabza",
+        "ağız",
+        "zevk",
+        "keriz",
+        "ziyan",
+        "namaz",
+        "zimmet",
+        "temiz",
+        "zirve",
+        "ezme",
+        "erkek",
+        "kek",
+        "kaşar",
+        "rahle",
+        "ezik",
+        "keklik",
+        "kılıç",
+        "çelimsiz",
+        "zararsız",
+        "zakkum",
+        "milyon",
+        "nezle",
+        "emekli",
+        "ilk",
+        "kilis",
+        "silik",
+        "kin",
+        "nakış",
+        "şart",
+        "tıraş",
+        "şimdi",
+        "ilik",
+        "kurşun"
       ]
     }
   ]
