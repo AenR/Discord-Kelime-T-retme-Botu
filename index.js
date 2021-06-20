@@ -2,7 +2,8 @@ const Discord = require('discord.js');
 const config = require('./config.json');
 const fs = require('fs');
 const client = new Discord.Client();
-//const express = require('express');
+const http = require('http');
+const express = require('express');
 client.commands = new Discord.Collection();
 client.config = config;
 const commandFolders = fs.readdirSync('./commands');
@@ -39,7 +40,7 @@ fs.readdir("./events/", (err, files) => {
     });
 });
 
-/* const app = express();
+ const app = express();
  app.get("/", (request, response) => {
    console.log(Date.now() + " Ping tamamdır.");
    response.sendStatus(200);
@@ -47,7 +48,7 @@ fs.readdir("./events/", (err, files) => {
  app.listen(process.env.PORT);
  setInterval(() => {
    http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
- }, 280000); */
+ }, 280000); 
 
 client.on('ready', async () => {
     const Guilds = client.guilds.cache.map(guild => guild.id);
