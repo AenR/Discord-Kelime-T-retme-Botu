@@ -14,8 +14,8 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "kestane",
-      "son_harf": "e"
+      "son_kelime": "selam",
+      "son_harf": "m"
     }
   ],
   "son_kelime_yazan": [
@@ -42,7 +42,7 @@
     {
       "guild_id": "796080327726465055",
       "kullanilan_kelimeler": [
-        "kestane"
+        "selam"
       ]
     }
   ]
