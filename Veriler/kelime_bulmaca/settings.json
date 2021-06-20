@@ -14,8 +14,8 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "kurşun",
-      "son_harf": "n"
+      "son_kelime": "küfretmek",
+      "son_harf": "k"
     }
   ],
   "son_kelime_yazan": [
@@ -30,11 +30,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 465
+          "puan": 576
         },
         {
           "client_id": "264052871140474880",
-          "puan": 456
+          "puan": 567
         }
       ]
     }
@@ -275,7 +275,81 @@
         "tıraş",
         "şimdi",
         "ilik",
-        "kurşun"
+        "kurşun",
+        "naftalin",
+        "nefis",
+        "sirk",
+        "köpek",
+        "kekeme",
+        "ense",
+        "esneme",
+        "esnek",
+        "kesim",
+        "milliyet",
+        "teşhir",
+        "risk",
+        "kazanç",
+        "çark",
+        "kıraç",
+        "çakı",
+        "ığdır",
+        "razı",
+        "ırz",
+        "zırh",
+        "hala",
+        "asalet",
+        "teknoloji",
+        "imsak",
+        "kalem",
+        "muhtıra",
+        "armut",
+        "tiran",
+        "nesne",
+        "enik",
+        "küslük",
+        "kilise",
+        "eh",
+        "he",
+        "em",
+        "me",
+        "ek",
+        "ke",
+        "eş",
+        "şe",
+        "es",
+        "se",
+        "er",
+        "re",
+        "ey",
+        "ye",
+        "esinti",
+        "itiraz",
+        "zengin",
+        "nizam",
+        "mazi",
+        "iki",
+        "itibar",
+        "raks",
+        "sarkıntı",
+        "ıkınma",
+        "akma",
+        "azami",
+        "ihtiras",
+        "sevgi",
+        "içten",
+        "nazar",
+        "rant",
+        "transfer",
+        "renk",
+        "köşk",
+        "keklemek",
+        "karşılamak",
+        "kakalak",
+        "küstürmek",
+        "kalabalık",
+        "kızartmak",
+        "kabalık",
+        "küfretmek"
       ]
     }
   ]
