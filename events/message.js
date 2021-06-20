@@ -32,7 +32,7 @@ module.exports = (client, message) => {
                 const embed = new Discord.MessageEmbed()
                     .setAuthor(message.author.username, message.author.avatarURL(),"https://leaderclan.com")
                     .setDescription(`${message.author.username}, üst üste yazamazsınız.`)
-                    .setColor("#FFFFFF");
+                    .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
                 return;
             }
@@ -40,7 +40,7 @@ module.exports = (client, message) => {
                 const embed = new Discord.MessageEmbed()
                     .setAuthor(message.author.username, message.author.avatarURL(),"https://leaderclan.com")
                     .setDescription(`**${kelime}**, geçersiz karakter içeriyor. Lütfen sadece türkçe karakter ve harf kullanın.`)
-                    .setColor("#FFFFFF");
+                    .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
                 return;                
             }
@@ -49,7 +49,7 @@ module.exports = (client, message) => {
                 const embed = new Discord.MessageEmbed()
                     .setAuthor(message.author.username, message.author.avatarURL(),"https://leaderclan.com")
                     .setDescription(`**${kelime}**, bu kelime **${stngssonharf}** ile başlamıyor.`)
-                    .setColor("#FFFFFF");
+                    .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
                 return;
             }
@@ -57,7 +57,7 @@ module.exports = (client, message) => {
                 const embed = new Discord.MessageEmbed()
                     .setAuthor(message.author.username, message.author.avatarURL(),"https://leaderclan.com")
                     .setDescription(`**${kelime}**, bu kelime daha önce kullanılmış.`)
-                    .setColor("#FFFFFF");
+                    .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
                 return;
             }
@@ -65,7 +65,7 @@ module.exports = (client, message) => {
                 const embed = new Discord.MessageEmbed()
                     .setAuthor(message.author.username, message.author.avatarURL(),"https://leaderclan.com")
                     .setDescription(`Yazmış olduğun **${kelime}** kelimesi çok kısa.`)
-                    .setColor("#FFFFFF");
+                    .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
                 return;                
             }
@@ -74,7 +74,7 @@ module.exports = (client, message) => {
                 const embed = new Discord.MessageEmbed()
                     .setAuthor(message.author.username, message.author.avatarURL(),"https://leaderclan.com")
                     .setDescription(`Oyun bitirici kelimeleri yazmak için biraz daha oynamanız gerekmekte.\nKalan kelime sayısı **${kalan_kelime}**`)
-                    .setColor("#FFFFFF");
+                    .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
                 return;
             }
@@ -90,7 +90,7 @@ module.exports = (client, message) => {
                         const embed = new Discord.MessageEmbed()
                             .setAuthor(message.author.username, message.author.avatarURL(),"https://leaderclan.com")
                             .setDescription(`Bir sorun oluştu lütfen yöneticiyle iletişime geçin. ${error}`)
-                            .setColor("#FFFFFF");
+                            .setColor("#FFCC00");
                         message.channel.send(embed);
                         return;
                     }
@@ -98,7 +98,7 @@ module.exports = (client, message) => {
                         const embed = new Discord.MessageEmbed()
                             .setAuthor(message.author.username, message.author.avatarURL(),"https://leaderclan.com")
                             .setDescription(`**${kelime}**, bu kelime **Türk Dil Kurumunda** bulunamadı.`)
-                            .setColor("#FFFFFF");
+                            .setColor("#FFCC00");
                             message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
                         return;
                     }
@@ -106,12 +106,12 @@ module.exports = (client, message) => {
                         const embed = new Discord.MessageEmbed()
                             .setAuthor(message.author.username, message.author.avatarURL(),"https://leaderclan.com")
                             .setDescription(`**${kelime}**, bu kelime daha önce kullanılmış.`)
-                            .setColor("#FFFFFF");
+                            .setColor("#FFCC00");
                         message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
                         return;
                     }
 		            global.fullarr.kullanilan_kelimeler_guilds[kullanilan_kelimeler_guilds_index].kullanilan_kelimeler.push(kelime);
-                    message.react('✔️');
+                    message.react('👌');
                     if(puanlar_client_index == -1){
                         global.fullarr.puanlar[puanlar_guilds_index].puanlar.push({
                             client_id : message.author.id,
@@ -127,7 +127,7 @@ module.exports = (client, message) => {
                         const embed = new Discord.MessageEmbed()
                             .setAuthor(message.author.username, message.author.avatarURL(),"https://leaderclan.com")
                             .setDescription(`${message.author},  Kilit kelimeyi yazarak oyunu bitirdi tebrikler birazdan yeni oyun başlayacak <3.`)
-                            .setColor("#FFFFFF");
+                            .setColor("#FFCC00");
                         message.channel.send(embed);
                         global.fullarr.puanlar[puanlar_guilds_index].puanlar[puanlar_client_index].puan += 50;
                         global.fullarr.game_bool[game_bool_index].game_bool = 'false';
@@ -148,7 +148,7 @@ module.exports = (client, message) => {
                                     const embed = new Discord.MessageEmbed()
                                         .setTitle('Yeni Kelime Oyunu')
                                         .setDescription(`Yeni oyun başladı herkese iyi eğlenceler\nBaşlangıç kelimesi: **${sansli_isim}**.`)
-                                        .setColor("#FFFFFF");
+                                        .setColor("#FFCC00");
                                     message.channel.send(embed);
                                 });
                             }, 5000);
