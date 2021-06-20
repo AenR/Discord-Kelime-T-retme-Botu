@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const embed = new Discord.MessageEmbed()
 const config = require('./config.json');
 const fs = require('fs');
 const client = new Discord.Client();
@@ -119,6 +120,29 @@ client.on('ready', async () => {
             if (err) throw err;
         });
     });
+  
+  client.on('message', msg => {
+  if (msg.content.toLowerCase() === config.prefix + 'komutlar') {
+    //msg.reply('kelime anlam', 'kelime başlat', 'kelime puan', 'kelime durdur', 'kelime kanal #kanal');
+    const embed = new Discord.MessageEmbed()
+	.setColor('#0099ff')
+	.setTitle('Başlık kısmı')
+	.setURL('https://www.codare.fun')
+	.setAuthor('İsim', 'https://i.imgur.com/wSTFkRM.png', 'https://www.codare.fun')
+	.setDescription('Buraya açıklama')
+	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
+	.addField('Alan Başlığı', 'Burda değer var')
+	.addBlankField()
+	.addField('Satır içi alan başlığı', 'Burada bir değer var', true)
+	.addField('Satır içi alan başlığı', 'Burada bir değer var', true)
+	.addField('Satır içi alan başlığı', 'Burada bir değer var', true)
+	.setImage('https://i.imgur.com/wSTFkRM.png')
+	.setTimestamp() //zaman
+	.setFooter('burada footer', 'https://i.imgur.com/wSTFkRM.png');
+
+msg.channel.send(embed);
+  }
+});
 
     client.channels.cache.get("856237979168538644").join();
     client.user.setActivity('>>AenR Kelime Botu<< !!kelime komutlar', { type: 'LISTENING' });
