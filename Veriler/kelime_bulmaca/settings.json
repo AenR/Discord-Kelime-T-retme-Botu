@@ -14,13 +14,14 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "kestane",
-      "son_harf": "e"
+      "son_kelime": "takı",
+      "son_harf": "ı"
     }
   ],
   "son_kelime_yazan": [
     {
-      "guild_id": "796080327726465055"
+      "guild_id": "796080327726465055",
+      "son_kelime_yazan": "264052871140474880"
     }
   ],
   "puanlar": [
@@ -29,11 +30,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 117
+          "puan": 240
         },
         {
           "client_id": "264052871140474880",
-          "puan": 108
+          "puan": 231
         }
       ]
     }
@@ -42,7 +43,89 @@
     {
       "guild_id": "796080327726465055",
       "kullanilan_kelimeler": [
-        "kestane"
+        "kestane",
+        "erik",
+        "kitap",
+        "prens",
+        "silah",
+        "hatıra",
+        "am",
+        "mal",
+        "laf",
+        "fal",
+        "lal",
+        "lale",
+        "emiş",
+        "şeker",
+        "rica",
+        "acil",
+        "lira",
+        "akıntı",
+        "ısı",
+        "ılık",
+        "katı",
+        "ışık",
+        "kafa",
+        "amel",
+        "lazım",
+        "mekruh",
+        "hıyar",
+        "resim",
+        "miğfer",
+        "resmi",
+        "imza",
+        "azim",
+        "miras",
+        "salim",
+        "malzeme",
+        "etek",
+        "keten",
+        "nevresim",
+        "mevsim",
+        "mil",
+        "lastik",
+        "kötek",
+        "karşı",
+        "ılgın",
+        "nabız",
+        "zehir",
+        "reşit",
+        "tekrir",
+        "reform",
+        "melisa",
+        "asil",
+        "lamba",
+        "amaç",
+        "çevre",
+        "evrim",
+        "makine",
+        "emsal",
+        "laik",
+        "kurt",
+        "traktör",
+        "rektör",
+        "rekor",
+        "ressam",
+        "mağara",
+        "ağa",
+        "ağıl",
+        "lağım",
+        "masif",
+        "film",
+        "mera",
+        "ara",
+        "arap",
+        "piç",
+        "çip",
+        "pezevenk",
+        "kadim",
+        "makat",
+        "takım",
+        "maksat",
+        "taksit",
+        "trafik",
+        "kat",
+        "takı"
       ]
     }
   ]
