@@ -1,3 +1,2 @@
-# Get Started!
-
-Add files and start typing 🎉
+# kelime-bulmaca-discordJS
+Discord bot ile yapılmış basit kelimenin son harfiyle yeni kelime bulmaca oyunu.

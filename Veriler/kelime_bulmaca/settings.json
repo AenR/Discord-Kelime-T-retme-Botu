@@ -1,0 +1,119 @@
+{
+  "game_bool": [
+    {
+      "guild_id": "796080327726465055",
+      "game_bool": "true"
+    }
+  ],
+  "channels": [
+    {
+      "guild_id": "796080327726465055",
+      "channel_id": "856143526520553473"
+    }
+  ],
+  "son_kelime": [
+    {
+      "guild_id": "796080327726465055",
+      "son_kelime": "raf",
+      "son_harf": "f"
+    }
+  ],
+  "son_kelime_yazan": [
+    {
+      "guild_id": "796080327726465055",
+      "son_kelime_yazan": "535033289346514964"
+    }
+  ],
+  "puanlar": [
+    {
+      "guild_id": "796080327726465055",
+      "puanlar": [
+        {
+          "client_id": "535033289346514964",
+          "puan": 111
+        },
+        {
+          "client_id": "264052871140474880",
+          "puan": 108
+        }
+      ]
+    }
+  ],
+  "kullanilan_kelimeler_guilds": [
+    {
+      "guild_id": "796080327726465055",
+      "kullanilan_kelimeler": [
+        "rastgele",
+        "el",
+        "lale",
+        "ela",
+        "asker",
+        "resim",
+        "miğfer",
+        "radikal",
+        "laf",
+        "fal",
+        "limon",
+        "nane",
+        "elma",
+        "alım",
+        "makat",
+        "takım",
+        "maksat",
+        "taksit",
+        "tip",
+        "pişti",
+        "ilik",
+        "kılık",
+        "keman",
+        "naz",
+        "zar",
+        "reis",
+        "ses",
+        "sek",
+        "kek",
+        "kel",
+        "liman",
+        "nehir",
+        "rahat",
+        "tren",
+        "nefes",
+        "söyleşi",
+        "isim",
+        "mehter",
+        "raks",
+        "sarkıntı",
+        "ıkıntı",
+        "ılık",
+        "kifayet",
+        "tek",
+        "kafa",
+        "atık",
+        "katı",
+        "ışık",
+        "kıta",
+        "ağır",
+        "rakı",
+        "ışıklandırma",
+        "askeriye",
+        "esir",
+        "risk",
+        "kreş",
+        "şerbet",
+        "tetik",
+        "kist",
+        "tak",
+        "katkı",
+        "ıssız",
+        "zaaf",
+        "faiz",
+        "ziyafet",
+        "ters",
+        "sert",
+        "terslik",
+        "kir",
+        "raf"
+      ]
+    }
+  ]
+}
