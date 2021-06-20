@@ -14,8 +14,8 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "radyo",
-      "son_harf": "o"
+      "son_kelime": "ızgara",
+      "son_harf": "a"
     }
   ],
   "son_kelime_yazan": [
@@ -30,11 +30,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 669
+          "puan": 678
         },
         {
           "client_id": "264052871140474880",
-          "puan": 657
+          "puan": 666
         }
       ]
     }
@@ -410,7 +410,13 @@
         "sıra",
         "arşın",
         "nasır",
-        "radyo"
+        "radyo",
+        "osuruk",
+        "kusmuk",
+        "kimse",
+        "ekim",
+        "mirasçı",
+        "ızgara"
       ]
     }
   ]
