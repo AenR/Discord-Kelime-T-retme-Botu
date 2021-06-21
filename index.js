@@ -120,22 +120,6 @@ client.on('ready', async () => {
             if (err) throw err;
         });
     });
-  
-/*  client.on('message', msg => {
-  if (msg.content.toLowerCase() === config.prefix + 'kelime komutlar') {
-    const embed = new Discord.MessageEmbed()
-        .setColor('#ffcc00')
-        .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
-        .setTitle('Komutlar:')
-		    .addField(`!!kelime anlam "kelime"`, 'Yazdığınız kelimenin anlamını öğrenmenizi sağlar.')
-        .addField(`!!kelime başlat`, 'Kelime oyununu başlatmayı sağlar.')
-        .addField(`!!kelime durdur`, 'Kelime oyununu durdurmayı sağlar.')
-        .addField(`!!kelime puan`, 'Kelime oyunundaki puanınızı öğrenmenizi sağlar.')
-        .addField(`!!kelime kanal #kanal`, 'Kelime oyununun hangi kanalda çalışacağını seçmenizi sağlar.')
-        .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
-    msg.channel.send(embed);
-  }
-});*/
 
     client.channels.cache.get("856237979168538644").join(); //KEKE
     client.channels.cache.get("856442949453348867").join(); //Kendi sunucusu

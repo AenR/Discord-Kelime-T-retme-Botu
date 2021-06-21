@@ -5,7 +5,8 @@
       "game_bool": "true"
     },
     {
-      "guild_id": "856442948890918932"
+      "guild_id": "856442948890918932",
+      "game_bool": "true"
     }
   ],
   "channels": [
@@ -25,7 +26,9 @@
       "son_harf": "k"
     },
     {
-      "guild_id": "856442948890918932"
+      "guild_id": "856442948890918932",
+      "son_kelime": "asparagas",
+      "son_harf": "s"
     }
   ],
   "son_kelime_yazan": [
@@ -71,7 +74,9 @@
     },
     {
       "guild_id": "856442948890918932",
-      "kullanilan_kelimeler": []
+      "kullanilan_kelimeler": [
+        "asparagas"
+      ]
     }
   ]
 }
