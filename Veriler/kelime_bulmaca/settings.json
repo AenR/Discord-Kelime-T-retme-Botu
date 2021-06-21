@@ -27,8 +27,8 @@
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "takı",
-      "son_harf": "ı"
+      "son_kelime": "tabiat",
+      "son_harf": "t"
     }
   ],
   "son_kelime_yazan": [
@@ -38,7 +38,7 @@
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime_yazan": "264052871140474880"
+      "son_kelime_yazan": "535033289346514964"
     }
   ],
   "puanlar": [
@@ -64,11 +64,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 15
+          "puan": 117
         },
         {
           "client_id": "264052871140474880",
-          "puan": 15
+          "puan": 114
         }
       ]
     }
@@ -128,7 +128,74 @@
         "patik",
         "kat",
         "tat",
-        "takı"
+        "takı",
+        "ısı",
+        "ısınma",
+        "aşı",
+        "ışık",
+        "kısa",
+        "asker",
+        "resim",
+        "miğfer",
+        "radyobiyoloji",
+        "içki",
+        "itiraz",
+        "zırh",
+        "hala",
+        "askeriye",
+        "elektrik",
+        "kifayet",
+        "teknik",
+        "kalifiye",
+        "eskitme",
+        "emekçi",
+        "iktidar",
+        "radyoaktif",
+        "fars",
+        "sehpa",
+        "ahşap",
+        "prematüre",
+        "eski",
+        "iskambil",
+        "lale",
+        "emin",
+        "nehir",
+        "riyakar",
+        "rahip",
+        "pervasız",
+        "zehir",
+        "rehavet",
+        "tetik",
+        "kabza",
+        "azınlık",
+        "kaliteli",
+        "ilik",
+        "kın",
+        "nefis",
+        "semavi",
+        "ibibik",
+        "kılıbık",
+        "kılık",
+        "kıç",
+        "çıkıntı",
+        "ısırık",
+        "kesinti",
+        "isimli",
+        "ilk",
+        "kruvazör",
+        "rehber",
+        "risk",
+        "kesik",
+        "kişi",
+        "içme",
+        "emek",
+        "kelek",
+        "kerpiç",
+        "çentik",
+        "karpuz",
+        "zakkum",
+        "makat",
+        "tabiat"
       ]
     }
   ]
