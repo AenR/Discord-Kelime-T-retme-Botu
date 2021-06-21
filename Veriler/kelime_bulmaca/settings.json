@@ -28,8 +28,8 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "şişman",
-      "son_harf": "n"
+      "son_kelime": "rahip",
+      "son_harf": "p"
     },
     {
       "guild_id": "856442948890918932",
@@ -43,7 +43,7 @@
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "264052871140474880"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "856442948890918932",
@@ -59,7 +59,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 741
+          "puan": 750
         },
         {
           "client_id": "264052871140474880",
@@ -72,6 +72,10 @@
         {
           "client_id": "623511154311823380",
           "puan": 3
+        },
+        {
+          "client_id": "403246711671095297",
+          "puan": 6
         }
       ]
     },
@@ -104,7 +108,12 @@
         "lehim",
         "meme",
         "emiş",
-        "şişman"
+        "şişman",
+        "nakliye",
+        "erik",
+        "kiraz",
+        "zar",
+        "rahip"
       ]
     },
     {
