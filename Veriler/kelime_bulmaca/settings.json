@@ -27,8 +27,8 @@
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "mızrak",
-      "son_harf": "k"
+      "son_kelime": "et",
+      "son_harf": "t"
     }
   ],
   "son_kelime_yazan": [
@@ -64,11 +64,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 192
+          "puan": 255
         },
         {
           "client_id": "264052871140474880",
-          "puan": 192
+          "puan": 255
         }
       ]
     }
@@ -246,7 +246,49 @@
         "nah",
         "han",
         "nazım",
-        "mızrak"
+        "mızrak",
+        "kalem",
+        "makas",
+        "sekiz",
+        "zikir",
+        "rahle",
+        "eser",
+        "resif",
+        "filinta",
+        "afili",
+        "ilim",
+        "mesken",
+        "nokta",
+        "aşk",
+        "kimse",
+        "ekip",
+        "pire",
+        "ekim",
+        "milis",
+        "silgi",
+        "iffet",
+        "tekli",
+        "idrar",
+        "rakip",
+        "proletarya",
+        "abaza",
+        "analiz",
+        "zencefil",
+        "lehçe",
+        "eğik",
+        "kip",
+        "prenses",
+        "seviye",
+        "eskime",
+        "eşit",
+        "transport",
+        "telafi",
+        "ihtiras",
+        "saat",
+        "takıntı",
+        "ıslak",
+        "kestane",
+        "et"
       ]
     }
   ]
