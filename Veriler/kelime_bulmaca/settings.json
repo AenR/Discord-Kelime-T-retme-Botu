@@ -28,8 +28,8 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "lehim",
-      "son_harf": "m"
+      "son_kelime": "şişman",
+      "son_harf": "n"
     },
     {
       "guild_id": "856442948890918932",
@@ -43,7 +43,7 @@
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "535033289346514964"
+      "son_kelime_yazan": "264052871140474880"
     },
     {
       "guild_id": "856442948890918932",
@@ -59,11 +59,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 738
+          "puan": 741
         },
         {
           "client_id": "264052871140474880",
-          "puan": 726
+          "puan": 732
         },
         {
           "client_id": "551120440584699904",
@@ -101,7 +101,10 @@
         "travma",
         "am",
         "mal",
-        "lehim"
+        "lehim",
+        "meme",
+        "emiş",
+        "şişman"
       ]
     },
     {
