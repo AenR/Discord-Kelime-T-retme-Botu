@@ -159,7 +159,7 @@ module.exports = {
                     let son_kelime_index = settings_son_kelime.findIndex(find => find.guild_id === message.guild.id);
                     let son_kelime_yazan_index = settings_son_kelime_yazan.findIndex(find => find.guild_id === message.guild.id);
                     let kullanilan_kelimeler_guilds_index = settings_kullanilan_kelimeler_guilds.findIndex(find => find.guild_id === message.guild.id);
-                    let rastgele_kelimeler = ["selam", "merhaba", "soğan", "çayda çıra", "kaset", "kusmuk", "saat", "mektep", "asparagas", "rastgele", "çay", "vişne suyu", "kestane", "kazak", "tarak", "yarak", "yara", "para", "kesici"];
+                    let rastgele_kelimeler = ["selam", "merhaba", "soğan", "çay", "kaset", "kusmuk", "saat", "mektep", "asparagas", "rastgele", "çay", "vişne", "kestane", "kazak", "tarak", "yarak", "yara", "para", "kesici", "yan"];
                     let sansli_isim = rastgele_kelimeler[Math.floor(Math.random() * (rastgele_kelimeler.length - 1))];
                     let sonharf = sansli_isim.length;
                     sonharf = sansli_isim.charAt(sonharf - 1);
