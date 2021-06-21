@@ -22,22 +22,23 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "elektrik",
-      "son_harf": "k"
+      "son_kelime": "seks",
+      "son_harf": "s"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "asparagas",
-      "son_harf": "s"
+      "son_kelime": "takı",
+      "son_harf": "ı"
     }
   ],
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "535033289346514964"
+      "son_kelime_yazan": "264052871140474880"
     },
     {
-      "guild_id": "856442948890918932"
+      "guild_id": "856442948890918932",
+      "son_kelime_yazan": "264052871140474880"
     }
   ],
   "puanlar": [
@@ -46,11 +47,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 684
+          "puan": 735
         },
         {
           "client_id": "264052871140474880",
-          "puan": 666
+          "puan": 720
         },
         {
           "client_id": "551120440584699904",
@@ -60,7 +61,16 @@
     },
     {
       "guild_id": "856442948890918932",
-      "puanlar": []
+      "puanlar": [
+        {
+          "client_id": "535033289346514964",
+          "puan": 15
+        },
+        {
+          "client_id": "264052871140474880",
+          "puan": 15
+        }
+      ]
     }
   ],
   "kullanilan_kelimeler_guilds": [
@@ -68,14 +78,57 @@
       "guild_id": "796080327726465055",
       "kullanilan_kelimeler": [
         "kusmuk",
-        "kale",
-        "elektrik"
+        "kas",
+        "sek",
+        "kist",
+        "terk",
+        "keman",
+        "naz",
+        "zarf",
+        "fren",
+        "nefes",
+        "serin",
+        "ne",
+        "etli",
+        "ilik",
+        "krem",
+        "menü",
+        "üst",
+        "tek",
+        "keten",
+        "nal",
+        "lazımlık",
+        "kent",
+        "tıraş",
+        "şarkı",
+        "ılık",
+        "kılık",
+        "kıyafet",
+        "temyiz",
+        "zam",
+        "marifet",
+        "tetik",
+        "küçük",
+        "kek",
+        "kitap",
+        "prens",
+        "seks"
       ]
     },
     {
       "guild_id": "856442948890918932",
       "kullanilan_kelimeler": [
-        "asparagas"
+        "asparagas",
+        "santimetre",
+        "eş",
+        "şans",
+        "seks",
+        "sek",
+        "kitap",
+        "patik",
+        "kat",
+        "tat",
+        "takı"
       ]
     }
   ]
