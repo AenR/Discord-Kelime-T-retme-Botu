@@ -121,9 +121,8 @@ client.on('ready', async () => {
         });
     });
   
-  client.on('message', msg => {
-  if (msg.content.toLowerCase() === config.prefix + 'komutlar') {
-    //msg.reply('kelime anlam', 'kelime başlat', 'kelime puan', 'kelime durdur', 'kelime kanal #kanal');
+/*  client.on('message', msg => {
+  if (msg.content.toLowerCase() === config.prefix + 'kelime komutlar') {
     const embed = new Discord.MessageEmbed()
         .setColor('#ffcc00')
         .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
@@ -134,11 +133,9 @@ client.on('ready', async () => {
         .addField(`!!kelime puan`, 'Kelime oyunundaki puanınızı öğrenmenizi sağlar.')
         .addField(`!!kelime kanal #kanal`, 'Kelime oyununun hangi kanalda çalışacağını seçmenizi sağlar.')
         .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
-        msg.channel.send(embed);
-
-msg.channel.send(embed);
+    msg.channel.send(embed);
   }
-});
+});*/
 
     client.channels.cache.get("856237979168538644").join();
     client.user.setActivity('>>AenR Kelime Botu<< !!kelime komutlar', { type: 'LISTENING' });

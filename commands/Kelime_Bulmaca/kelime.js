@@ -226,6 +226,18 @@ module.exports = {
                     .setColor("#FFCC00");
                 message.channel.send(embedsss).then(del => del.delete({ timeout: 7000 }, message.delete({ timeout: 7000 })));
                 break;
+          case 'komutlar':
+            const embedkomutlar = new Discord.MessageEmbed()
+        .setColor('#ffcc00')
+        .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
+        .setTitle('Komutlar:')
+		    .addField(`!!kelime anlam "kelime"`, 'Yazdığınız kelimenin anlamını öğrenmenizi sağlar.')
+        .addField(`!!kelime başlat`, 'Kelime oyununu başlatmayı sağlar.')
+        .addField(`!!kelime durdur`, 'Kelime oyununu durdurmayı sağlar.')
+        .addField(`!!kelime puan`, 'Kelime oyunundaki puanınızı öğrenmenizi sağlar.')
+        .addField(`!!kelime kanal #kanal`, 'Kelime oyununun hangi kanalda çalışacağını seçmenizi sağlar.')
+        .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
+        message.channel.send(embed);
         }
         return;
     }
