@@ -1,4 +1,7 @@
 const Discord = require('discord.js');
+
+const client = new Discord.Client()
+
 const fs = require('fs');
 const settings_path = 'Veriler/kelime_bulmaca/settings.json';
 const request = require('request');
@@ -6,7 +9,6 @@ const request = require('request');
 const moment = require("moment");
 const os = require("os");
 require("moment-duration-format");
-const client = new client();
 
 module.exports = {
     name: 'kelime',
@@ -248,7 +250,7 @@ module.exports = {
           case 'istatistik':
             const istatistikozel = new Discord.MessageEmbed()
   .setColor(0x36393F)
-.setDescription(`${ client.user.username}`)
+.setDescription(`${client.user.username}`)
 .addField(`Bot Sahibi`, `<@535033289346514964>`, )
 .addField("Sunucu Sayısı ", `${client.guilds.cache.size.toLocaleString()}`, true)
 .addField("Toplam Kullanıcı Sayısı ", `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}`, true)
