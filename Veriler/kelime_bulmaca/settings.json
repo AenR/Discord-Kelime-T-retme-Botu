@@ -27,7 +27,7 @@
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "et",
+      "son_kelime": "net",
       "son_harf": "t"
     }
   ],
@@ -64,11 +64,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 255
+          "puan": 315
         },
         {
           "client_id": "264052871140474880",
-          "puan": 255
+          "puan": 315
         }
       ]
     }
@@ -288,7 +288,47 @@
         "takıntı",
         "ıslak",
         "kestane",
-        "et"
+        "et",
+        "trans",
+        "sınıfsal",
+        "lamba",
+        "asil",
+        "laboratuvar",
+        "riyal",
+        "laik",
+        "komünizm",
+        "meslek",
+        "kömür",
+        "radyo",
+        "orman",
+        "nal",
+        "limon",
+        "nar",
+        "rağmen",
+        "nöroloji",
+        "iskele",
+        "ekin",
+        "nötr",
+        "radikal",
+        "laf",
+        "fal",
+        "lira",
+        "alım",
+        "manevra",
+        "ahi",
+        "ilahiyat",
+        "tank",
+        "kravat",
+        "takım",
+        "mikrofon",
+        "naftalin",
+        "nerede",
+        "edirne",
+        "ense",
+        "esnemek",
+        "kazak",
+        "kalın",
+        "net"
       ]
     }
   ]
