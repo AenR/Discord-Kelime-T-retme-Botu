@@ -3,12 +3,18 @@
     {
       "guild_id": "796080327726465055",
       "game_bool": "true"
+    },
+    {
+      "guild_id": "856442948890918932"
     }
   ],
   "channels": [
     {
       "guild_id": "796080327726465055",
       "channel_id": "856143526520553473"
+    },
+    {
+      "guild_id": "856442948890918932"
     }
   ],
   "son_kelime": [
@@ -16,12 +22,18 @@
       "guild_id": "796080327726465055",
       "son_kelime": "elektrik",
       "son_harf": "k"
+    },
+    {
+      "guild_id": "856442948890918932"
     }
   ],
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
       "son_kelime_yazan": "535033289346514964"
+    },
+    {
+      "guild_id": "856442948890918932"
     }
   ],
   "puanlar": [
@@ -41,6 +53,10 @@
           "puan": 6
         }
       ]
+    },
+    {
+      "guild_id": "856442948890918932",
+      "puanlar": []
     }
   ],
   "kullanilan_kelimeler_guilds": [
@@ -51,6 +67,10 @@
         "kale",
         "elektrik"
       ]
+    },
+    {
+      "guild_id": "856442948890918932",
+      "kullanilan_kelimeler": []
     }
   ]
 }
