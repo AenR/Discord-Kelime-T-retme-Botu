@@ -28,8 +28,8 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "am",
-      "son_harf": "m"
+      "son_kelime": "mal",
+      "son_harf": "l"
     },
     {
       "guild_id": "856442948890918932",
@@ -43,7 +43,7 @@
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "623511154311823380"
+      "son_kelime_yazan": "264052871140474880"
     },
     {
       "guild_id": "856442948890918932",
@@ -63,7 +63,7 @@
         },
         {
           "client_id": "264052871140474880",
-          "puan": 723
+          "puan": 726
         },
         {
           "client_id": "551120440584699904",
@@ -99,7 +99,8 @@
       "kullanilan_kelimeler": [
         "saat",
         "travma",
-        "am"
+        "am",
+        "mal"
       ]
     },
     {
