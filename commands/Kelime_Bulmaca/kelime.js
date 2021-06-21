@@ -237,7 +237,8 @@ module.exports = {
         .addField(`!!kelime puan`, 'Kelime oyunundaki puanınızı öğrenmenizi sağlar.')
         .addField(`!!kelime kanal #kanal`, 'Kelime oyununun hangi kanalda çalışacağını seçmenizi sağlar.')
         .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
-        message.channel.send(embed);
+        message.channel.send(embedkomutlar);
+            break;
         }
         return;
     }
