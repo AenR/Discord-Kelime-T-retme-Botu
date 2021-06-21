@@ -1,10 +1,3 @@
-const Discord = require("discord.js");
-const moment = require("moment");
-const os = require("os");
-require("moment-duration-format");
-
-
-
 exports.run = (client, message) => {
   const istatistikozel = new Discord.MessageEmbed()
   .setColor(0x36393F)
