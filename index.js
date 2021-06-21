@@ -125,20 +125,16 @@ client.on('ready', async () => {
   if (msg.content.toLowerCase() === config.prefix + 'komutlar') {
     //msg.reply('kelime anlam', 'kelime başlat', 'kelime puan', 'kelime durdur', 'kelime kanal #kanal');
     const embed = new Discord.MessageEmbed()
-	.setColor('#0099ff')
-	.setTitle('Başlık kısmı')
-	.setURL('https://www.codare.fun')
-	.setAuthor('İsim', 'https://i.imgur.com/wSTFkRM.png', 'https://www.codare.fun')
-	.setDescription('Buraya açıklama')
-	.setThumbnail('https://i.imgur.com/wSTFkRM.png')
-	.addField('Alan Başlığı', 'Burda değer var')
-	.addBlankField()
-	.addField('Satır içi alan başlığı', 'Burada bir değer var', true)
-	.addField('Satır içi alan başlığı', 'Burada bir değer var', true)
-	.addField('Satır içi alan başlığı', 'Burada bir değer var', true)
-	.setImage('https://i.imgur.com/wSTFkRM.png')
-	.setTimestamp() //zaman
-	.setFooter('burada footer', 'https://i.imgur.com/wSTFkRM.png');
+        .setColor('#ffcc00')
+        .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
+        .setTitle('Komutlar:')
+		    .addField(`!!kelime anlam "kelime"`, 'Yazdığınız kelimenin anlamını öğrenmenizi sağlar.')
+        .addField(`!!kelime başlat`, 'Kelime oyununu başlatmayı sağlar.')
+        .addField(`!!kelime durdur`, 'Kelime oyununu durdurmayı sağlar.')
+        .addField(`!!kelime puan`, 'Kelime oyunundaki puanınızı öğrenmenizi sağlar.')
+        .addField(`!!kelime kanal #kanal`, 'Kelime oyununun hangi kanalda çalışacağını seçmenizi sağlar.')
+        .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
+        msg.channel.send(embed);
 
 msg.channel.send(embed);
   }
