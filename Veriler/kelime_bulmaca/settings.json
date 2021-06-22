@@ -13,6 +13,10 @@
     },
     {
       "guild_id": "818151554770796594"
+    },
+    {
+      "guild_id": "793002254982578208",
+      "game_bool": "false"
     }
   ],
   "channels": [
@@ -29,6 +33,10 @@
     },
     {
       "guild_id": "818151554770796594"
+    },
+    {
+      "guild_id": "793002254982578208",
+      "channel_id": "811498246974472283"
     }
   ],
   "son_kelime": [
@@ -47,6 +55,11 @@
     },
     {
       "guild_id": "818151554770796594"
+    },
+    {
+      "guild_id": "793002254982578208",
+      "son_kelime": "ok",
+      "son_harf": "k"
     }
   ],
   "son_kelime_yazan": [
@@ -63,6 +76,10 @@
     },
     {
       "guild_id": "818151554770796594"
+    },
+    {
+      "guild_id": "793002254982578208",
+      "son_kelime_yazan": "793463889659822100"
     }
   ],
   "puanlar": [
@@ -115,6 +132,15 @@
     {
       "guild_id": "818151554770796594",
       "puanlar": []
+    },
+    {
+      "guild_id": "793002254982578208",
+      "puanlar": [
+        {
+          "client_id": "793463889659822100",
+          "puan": 3
+        }
+      ]
     }
   ],
   "kullanilan_kelimeler_guilds": [
@@ -386,6 +412,12 @@
     {
       "guild_id": "818151554770796594",
       "kullanilan_kelimeler": []
+    },
+    {
+      "guild_id": "793002254982578208",
+      "kullanilan_kelimeler": [
+        "ok"
+      ]
     }
   ]
 }
