@@ -28,12 +28,12 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "rahip",
-      "son_harf": "p"
+      "son_kelime": "pırasa",
+      "son_harf": "a"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "ekmek",
+      "son_kelime": "kepek",
       "son_harf": "k"
     },
     {
@@ -43,11 +43,11 @@
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "535033289346514964"
+      "son_kelime_yazan": "264052871140474880"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime_yazan": "535033289346514964"
+      "son_kelime_yazan": "264052871140474880"
     },
     {
       "guild_id": "735903380139933838"
@@ -63,7 +63,7 @@
         },
         {
           "client_id": "264052871140474880",
-          "puan": 732
+          "puan": 735
         },
         {
           "client_id": "551120440584699904",
@@ -88,7 +88,7 @@
         },
         {
           "client_id": "264052871140474880",
-          "puan": 348
+          "puan": 351
         },
         {
           "client_id": "403246711671095297",
@@ -117,7 +117,8 @@
         "erik",
         "kiraz",
         "zar",
-        "rahip"
+        "rahip",
+        "pırasa"
       ]
     },
     {
@@ -358,7 +359,8 @@
         "halef",
         "felek",
         "keke",
-        "ekmek"
+        "ekmek",
+        "kepek"
       ]
     },
     {
