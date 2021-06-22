@@ -48,13 +48,13 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "laboratuvar",
+      "son_kelime": "asker",
       "son_harf": "r"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "nasıl",
-      "son_harf": "l"
+      "son_kelime": "ritmik",
+      "son_harf": "k"
     },
     {
       "guild_id": "735903380139933838"
@@ -74,7 +74,7 @@
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "535033289346514964"
+      "son_kelime_yazan": "264052871140474880"
     },
     {
       "guild_id": "856442948890918932",
@@ -100,11 +100,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 771
+          "puan": 777
         },
         {
           "client_id": "264052871140474880",
-          "puan": 753
+          "puan": 762
         },
         {
           "client_id": "551120440584699904",
@@ -125,11 +125,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 372
+          "puan": 381
         },
         {
           "client_id": "264052871140474880",
-          "puan": 369
+          "puan": 378
         },
         {
           "client_id": "403246711671095297",
@@ -189,7 +189,12 @@
         "ziyaret",
         "tan",
         "nasıl",
-        "laboratuvar"
+        "laboratuvar",
+        "ruh",
+        "hain",
+        "namlu",
+        "uluma",
+        "asker"
       ]
     },
     {
@@ -443,7 +448,13 @@
         "çalım",
         "millet",
         "tan",
-        "nasıl"
+        "nasıl",
+        "labirent",
+        "teslimat",
+        "tarihi",
+        "istikamet",
+        "tekbir",
+        "ritmik"
       ]
     },
     {
