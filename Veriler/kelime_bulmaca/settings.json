@@ -54,13 +54,13 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "travmatik",
-      "son_harf": "k"
+      "son_kelime": "kir",
+      "son_harf": "r"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "terlik",
-      "son_harf": "k"
+      "son_kelime": "kirlenme",
+      "son_harf": "e"
     },
     {
       "guild_id": "735903380139933838"
@@ -83,11 +83,11 @@
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "264052871140474880"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime_yazan": "264052871140474880"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "735903380139933838"
@@ -112,7 +112,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 798
+          "puan": 801
         },
         {
           "client_id": "264052871140474880",
@@ -137,7 +137,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 405
+          "puan": 408
         },
         {
           "client_id": "264052871140474880",
@@ -224,7 +224,8 @@
         "numara",
         "anarşi",
         "internet",
-        "travmatik"
+        "travmatik",
+        "kir"
       ]
     },
     {
@@ -500,7 +501,8 @@
         "nazilli",
         "insan",
         "nasihat",
-        "terlik"
+        "terlik",
+        "kirlenme"
       ]
     },
     {

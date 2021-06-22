@@ -11,6 +11,7 @@ const os = require("os");
 require("moment-duration-format");
 
 module.exports = {
+  
     name: 'kelime',
     description: 'Kelime oyunu.',
     execute(message, args) {
