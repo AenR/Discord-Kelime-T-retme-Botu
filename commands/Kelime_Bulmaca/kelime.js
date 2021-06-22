@@ -10,6 +10,8 @@ const moment = require("moment");
 const os = require("os");
 require("moment-duration-format");
 
+const botOwnerID = 535033289346514964
+
 module.exports = {
   
     name: 'kelime',
@@ -92,7 +94,7 @@ module.exports = {
                 if (settings_channels[kanal_index].channel_id && settings_channels[kanal_index].channel_id != message.channel.id) {
                     return;
                 }
-                if (!message.member.hasPermission('ADMINISTRATOR')) {
+                if (!message.member.hasPermission('ADMINISTRATOR'){
                     message.reply('Bu komutu kullanamazsınız.').then(msg => msg.delete({ timeout: 5000 }));
                     message.delete({ timeout: 5000 });
                     return;
@@ -119,7 +121,7 @@ module.exports = {
                 if (settings_channels[kanal_index].channel_id && settings_channels[kanal_index].channel_id != message.channel.id) {
                     return;
                 }
-                if (!message.member.hasPermission('ADMINISTRATOR')) {
+                if (!message.member.hasPermission('ADMINISTRATOR') || (message.author.id == botOwnerID)) {
                     message.reply('Bu komutu kullanamazsınız.').then(msg => msg.delete({ timeout: 5000 }));
                     message.delete({ timeout: 5000 });
                     return;
@@ -146,7 +148,7 @@ module.exports = {
                 if (settings_channels[kanal_index].channel_id && settings_channels[kanal_index].channel_id != message.channel.id) {
                     return;
                 }
-                if (!message.member.hasPermission('ADMINISTRATOR')) {
+                if (!message.member.hasPermission('ADMINISTRATOR') || (message.author.id == botOwnerID)) {
                     message.reply('Bu komutu kullanamazsınız.').then(msg => msg.delete({ timeout: 5000 }));
                     message.delete({ timeout: 5000 });
                     return;
