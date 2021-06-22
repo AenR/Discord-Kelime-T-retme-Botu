@@ -16,10 +16,11 @@ module.exports = client => {
   );
   client.user.setStatus("online");
   var oyun = [
-    "🔥 AenR Kelime Botu 🔥 !!kelime komutlar",
+    "🔥 AenR Kelime Botu 🔥",
     `${client.guilds.cache.size} 💻 sunucuya hizmet veriyor.`,
     `${client.users.cache.size} 🎩 kullanıcıya hizmet veriyor.`,
-    "discord.gg/yr4xpYJvvp 🔗 davet sunucusu linki."
+    "discord.gg/yr4xpYJvvp 🔗 davet sunucusu linki.",
+    "🤖 !!yardım 🤖 !!kelime komutlar 🤖"
 
   ];
 
