@@ -247,6 +247,13 @@ module.exports = {
         .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
         message.channel.send(embedkomutlar);
             break;
+          case 'istatistik':
+//console.log("Bulunulan sunucu sayısı: " + client.guilds.cache.size);
+//console.log("Hizmet verilen üye sayısı:"+ client.users.cache.size);
+            const embedistatistik = new Discord.MessageEmbed()
+              .setColor("#FFCC00")
+              .setTitle("İstatisikler:")
+              .addField("B")
         }
         return;
     }
