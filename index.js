@@ -148,10 +148,7 @@ client.on('ready', async () => {
     client.channels.cache.get("856237979168538644").join(); //KEKE
     client.channels.cache.get("856442949453348867").join(); //Kendi sunucusu
     //client.user.setActivity('🔥 AenR Kelime Botu 🔥 !!kelime komutlar', { type: 'LISTENING' });
-  
-  //client.user.setActivity(client.guilds.cache.size + " sunucuya hizmet veriyor.", {type: 'LISTENING'});
-
-  
+    //client.user.setActivity(client.guilds.cache.size + " sunucuya hizmet veriyor.", {type: 'LISTENING'});
   
     console.log(`Logged in as ${client.user.tag}! - ${client.guilds.cache.size}`);
 });
