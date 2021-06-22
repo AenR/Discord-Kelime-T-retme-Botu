@@ -8,6 +8,7 @@ const express = require('express');
 client.commands = new Discord.Collection();
 client.config = config;
 const commandFolders = fs.readdirSync('./commands');
+const botOwnerID = 535033289346514964
 
 global.fullarr = {
     "game_bool": [],
