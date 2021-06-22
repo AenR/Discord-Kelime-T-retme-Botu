@@ -120,7 +120,17 @@ client.on('ready', async () => {
             if (err) throw err;
         });
     });
-
+  
+//console.log("Bulunulan sunucu sayısı: " + client.guilds.cache.size);
+console.log("Hizmet verilen üye sayısı:"+ client.guilds.cache.size);
+      /*console.log ('_________________________________________');
+      console.log (`Kullanıcı İsmi     : ${client.user.username}`);
+      console.log (`Sunucular          : ${client.guilds.cache.size}`);
+      console.log (`Kullanıcılar       : ${client.users.cache.size}`);
+      console.log (`Prefix             : ${config.prefix}`);
+      console.log (`Durum              : Bot Çevrimiçi!`);
+      console.log ('_________________________________________');*/
+  
     client.channels.cache.get("856237979168538644").join(); //KEKE
     client.channels.cache.get("856442949453348867").join(); //Kendi sunucusu
     client.user.setActivity('>>AenR Kelime Botu<< !!kelime komutlar', { type: 'LISTENING' }, {status: 'idle'});
