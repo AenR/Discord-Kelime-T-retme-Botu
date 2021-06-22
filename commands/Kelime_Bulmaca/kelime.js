@@ -247,20 +247,6 @@ module.exports = {
         .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
         message.channel.send(embedkomutlar);
             break;
-            
-        case 'yardım':
-            const embedyardım = new Discord.MessageEmbed()
-        .setColor('#ffcc00')
-        .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
-        .setTitle('Komutlar:')
-		    .addField(`!!kelime anlam "kelime"`, 'Yazdığınız kelimenin anlamını öğrenmenizi sağlar.')
-        .addField(`!!kelime başlat`, 'Kelime oyununu başlatmayı sağlar.')
-        .addField(`!!kelime durdur`, 'Kelime oyununu durdurmayı sağlar.')
-        .addField(`!!kelime puan`, 'Kelime oyunundaki puanınızı öğrenmenizi sağlar.')
-        .addField(`!!kelime kanal #kanal`, 'Kelime oyununun hangi kanalda çalışacağını seçmenizi sağlar.')
-        .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
-        message.channel.send(embedyardım);
-            break;
           case 'istatistik':
             const embedistatistik = new Discord.MessageEmbed()
               .setColor("#FFCC00")
