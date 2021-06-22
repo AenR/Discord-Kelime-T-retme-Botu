@@ -17,6 +17,9 @@
     {
       "guild_id": "793002254982578208",
       "game_bool": "false"
+    },
+    {
+      "guild_id": "792733574687096852"
     }
   ],
   "channels": [
@@ -37,17 +40,20 @@
     {
       "guild_id": "793002254982578208",
       "channel_id": "811498246974472283"
+    },
+    {
+      "guild_id": "792733574687096852"
     }
   ],
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "pırasa",
-      "son_harf": "a"
+      "son_kelime": "aşırı",
+      "son_harf": "ı"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "kepek",
+      "son_kelime": "kabak",
       "son_harf": "k"
     },
     {
@@ -60,16 +66,19 @@
       "guild_id": "793002254982578208",
       "son_kelime": "ok",
       "son_harf": "k"
+    },
+    {
+      "guild_id": "792733574687096852"
     }
   ],
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "264052871140474880"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime_yazan": "264052871140474880"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "735903380139933838"
@@ -80,6 +89,9 @@
     {
       "guild_id": "793002254982578208",
       "son_kelime_yazan": "793463889659822100"
+    },
+    {
+      "guild_id": "792733574687096852"
     }
   ],
   "puanlar": [
@@ -88,7 +100,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 750
+          "puan": 753
         },
         {
           "client_id": "264052871140474880",
@@ -113,7 +125,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 354
+          "puan": 357
         },
         {
           "client_id": "264052871140474880",
@@ -141,6 +153,10 @@
           "puan": 3
         }
       ]
+    },
+    {
+      "guild_id": "792733574687096852",
+      "puanlar": []
     }
   ],
   "kullanilan_kelimeler_guilds": [
@@ -160,7 +176,8 @@
         "kiraz",
         "zar",
         "rahip",
-        "pırasa"
+        "pırasa",
+        "aşırı"
       ]
     },
     {
@@ -402,7 +419,8 @@
         "felek",
         "keke",
         "ekmek",
-        "kepek"
+        "kepek",
+        "kabak"
       ]
     },
     {
@@ -418,6 +436,10 @@
       "kullanilan_kelimeler": [
         "ok"
       ]
+    },
+    {
+      "guild_id": "792733574687096852",
+      "kullanilan_kelimeler": []
     }
   ]
 }
