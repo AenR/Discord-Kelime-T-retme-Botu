@@ -1,7 +1,7 @@
 const chalk = require("chalk");
 const moment = require("moment");
 const Discord = require("discord.js");
-const ayarlar = require("../.json");
+const ayarlar = require("../config.json");
 
 var prefix = ayarlar.prefix;
 
@@ -16,10 +16,11 @@ module.exports = client => {
   );
   client.user.setStatus("online");
   var oyun = [
-    "deneme 1",
-    "deneme 2",
-    "deneme 3",
-    "deneme 4"
+    "🔥 AenR Kelime Botu 🔥 !!kelime komutlar",
+    `${client.guilds.cache.size} 💻 sunucuya hizmet veriyor.`,
+    `${client.users.cache.size} 🎩 kullanıcıya hizmet veriyor.`,
+    "discord.gg/yr4xpYJvvp ",
+    ""
 
   ];
 
