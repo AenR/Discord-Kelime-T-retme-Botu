@@ -48,13 +48,13 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "zaman",
-      "son_harf": "n"
+      "son_kelime": "laboratuvar",
+      "son_harf": "r"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "komprador",
-      "son_harf": "r"
+      "son_kelime": "nasıl",
+      "son_harf": "l"
     },
     {
       "guild_id": "735903380139933838"
@@ -74,7 +74,7 @@
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "264052871140474880"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "856442948890918932",
@@ -100,11 +100,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 759
+          "puan": 771
         },
         {
           "client_id": "264052871140474880",
-          "puan": 744
+          "puan": 753
         },
         {
           "client_id": "551120440584699904",
@@ -125,11 +125,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 363
+          "puan": 372
         },
         {
           "client_id": "264052871140474880",
-          "puan": 360
+          "puan": 369
         },
         {
           "client_id": "403246711671095297",
@@ -182,7 +182,14 @@
         "kalın",
         "nüfus",
         "semiz",
-        "zaman"
+        "zaman",
+        "namaz",
+        "zaaf",
+        "faiz",
+        "ziyaret",
+        "tan",
+        "nasıl",
+        "laboratuvar"
       ]
     },
     {
@@ -430,7 +437,13 @@
         "av",
         "vatandaş",
         "şak",
-        "komprador"
+        "komprador",
+        "ranza",
+        "amaç",
+        "çalım",
+        "millet",
+        "tan",
+        "nasıl"
       ]
     },
     {
