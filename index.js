@@ -134,12 +134,13 @@ client.on('ready', async () => {
     const embedyardım = new Discord.MessageEmbed()
         .setColor('#ffcc00')
         .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
-        .setTitle('Komutlar:')
-		    .addField(`!!kelime anlam "kelime"`, 'Yazdığınız kelimenin anlamını öğrenmenizi sağlar.')
-        .addField(`!!kelime başlat`, 'Kelime oyununu başlatmayı sağlar.')
-        .addField(`!!kelime durdur`, 'Kelime oyununu durdurmayı sağlar.')
-        .addField(`!!kelime puan`, 'Kelime oyunundaki puanınızı öğrenmenizi sağlar.')
-        .addField(`!!kelime kanal #kanal`, 'Kelime oyununun hangi kanalda çalışacağını seçmenizi sağlar.')
+        .setTitle('Yardım:')
+        .addField(`Bot Sahibi`, `<@535033289346514964>`, )
+		    .addField(`!!kelime komutlar`, 'Komutlara erişmenizi sağlar.')
+        .addField("Sunucu Sayısı ", `${client.guilds.cache.size.toLocaleString()}`, true)
+        .addField("Toplam Kullanıcı Sayısı ", `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}`, true)
+        .addField(`Botu Davet Et`, `[Tıkla](https://discord.com/oauth2/authorize?client_id=856238953296691200&scope=bot&permissions=3664960)`, true)
+        .addField(`Destek Sunucusuna Katıl`, `[Tıkla](https://discord.gg/yr4xpYJvvp)`, true)
         .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
         msg.channel.send(embedyardım);
   }

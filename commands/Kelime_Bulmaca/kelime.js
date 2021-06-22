@@ -240,11 +240,14 @@ module.exports = {
         .setColor('#ffcc00')
         .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
         .setTitle('Komutlar:')
+        .addField(`!!yardım`, 'Bot hakkında bilgi almanızı sağlar.')
 		    .addField(`!!kelime anlam "kelime"`, 'Yazdığınız kelimenin anlamını öğrenmenizi sağlar.')
         .addField(`!!kelime başlat`, 'Kelime oyununu başlatmayı sağlar.')
         .addField(`!!kelime durdur`, 'Kelime oyununu durdurmayı sağlar.')
         .addField(`!!kelime puan`, 'Kelime oyunundaki puanınızı öğrenmenizi sağlar.')
         .addField(`!!kelime kanal #kanal`, 'Kelime oyununun hangi kanalda çalışacağını seçmenizi sağlar.')
+        .addField(`!!kelime istatistik`, 'Kelime botunun istatistiklerine erişmenizi sağlar.')
+        .addField(`!!kelime kullanım`, 'Kelime botunun nasıl kullanıldığını öğrenmenizi sağlar.')
         .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
         message.channel.send(embedkomutlar);
             break;
@@ -253,10 +256,24 @@ module.exports = {
               .setColor("#FFCC00")
               .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
               .setTitle("İstatisikler:")
-              .addField("Bulunulan Sunucu Sayısı: " + client.guilds.cache.size)
-              .addField("Hizmet Verilen Üye Sayısı: " + client.users.cache.size)
+              .addField("Sunucu Sayısı ", `${client.guilds.cache.size.toLocaleString()}`, true)
+              .addField("Toplam Kullanıcı Sayısı ", `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}`, true)
               .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg')
         message.channel.send(embedistatistik);
+            break;
+          case 'kullanım':
+            const embedkullanim = new Discord.MessageEmbed()
+              .setColor("#FFCC00")
+              .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
+              .setTitle("Botun Kullanımı:")
+              .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg')
+              .addField(`1-)`, 'Öncelikle "!!kelime kanal #kanal" ile kanal seçiyoruz.')
+              .addField(`2-)`, 'Daha sonra "!!kelime başlat" diyerek oyunu başlatıyoruz.')
+              .addField(`3-)`, 'Ardından kelimeleri yazmaya başlayabilirsiniz.')
+              .addField(`4-)`, 'Oyunu sıfırlamak isterseniz "!!kelime sıfırla" yazarak oyunu sıfırlayabilirsiniz.')
+              .addField(`5-)`, 'Puanınızı görmek için "!!kelime puan" yazabilirsiniz.')
+              
+        message.channel.send(embedkullanim);
             break;
         }
         return;
