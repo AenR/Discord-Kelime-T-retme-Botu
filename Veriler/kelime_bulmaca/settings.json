@@ -48,13 +48,13 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "nüfus",
-      "son_harf": "s"
+      "son_kelime": "zaman",
+      "son_harf": "n"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "vatandaş",
-      "son_harf": "ş"
+      "son_kelime": "komprador",
+      "son_harf": "r"
     },
     {
       "guild_id": "735903380139933838"
@@ -100,11 +100,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 756
+          "puan": 759
         },
         {
           "client_id": "264052871140474880",
-          "puan": 741
+          "puan": 744
         },
         {
           "client_id": "551120440584699904",
@@ -125,11 +125,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 360
+          "puan": 363
         },
         {
           "client_id": "264052871140474880",
-          "puan": 357
+          "puan": 360
         },
         {
           "client_id": "403246711671095297",
@@ -180,7 +180,9 @@
         "aşırı",
         "ırak",
         "kalın",
-        "nüfus"
+        "nüfus",
+        "semiz",
+        "zaman"
       ]
     },
     {
@@ -426,7 +428,9 @@
         "kabak",
         "kavurma",
         "av",
-        "vatandaş"
+        "vatandaş",
+        "şak",
+        "komprador"
       ]
     },
     {

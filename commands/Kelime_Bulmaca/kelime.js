@@ -248,12 +248,15 @@ module.exports = {
         message.channel.send(embedkomutlar);
             break;
           case 'istatistik':
-//console.log("Bulunulan sunucu sayısı: " + client.guilds.cache.size);
-//console.log("Hizmet verilen üye sayısı:"+ client.users.cache.size);
             const embedistatistik = new Discord.MessageEmbed()
               .setColor("#FFCC00")
+              .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
               .setTitle("İstatisikler:")
-              .addField("B")
+              .addField("Bulunulan Sunucu Sayısı: " + client.guilds.cache.size)
+              .addField("Hizmet Verilen Üye Sayısı: " + client.users.cache.size)
+              .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg')
+        message.channel.send(embedistatistik);
+            break;
         }
         return;
     }
