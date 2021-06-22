@@ -43,7 +43,7 @@ module.exports = {
             }
             const embed = new Discord.MessageEmbed()
                 .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
-                .setDescription('Kelime oyunu fonksiyonları için bir kanal ayarlanmalı.\nAyarlamak için **!kelime kanal #kanal**')
+                .setDescription('Kelime oyunu fonksiyonları için bir kanal ayarlanmalı.\nAyarlamak için **!!kelime kanal #kanal**')
                 .setColor("#FFCC00");
             message.channel.send(embed);
             return;
@@ -60,7 +60,7 @@ module.exports = {
                     const embed = new Discord.MessageEmbed()
                         .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
                         .addField('Ayarlı Kelime Kanalı', available_channel)
-                        .setFooter('Değiştirmek için !kelime kanal #kanal')
+                        .setFooter('Değiştirmek için !!kelime kanal #kanal')
                         .setColor("#FFCC00");
                     message.channel.send(embed);
                     return;
@@ -70,7 +70,7 @@ module.exports = {
                     if (!mention_kanal) {
                         const embed = new Discord.MessageEmbed()
                             .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
-                            .setDescription('Kullanım: !kelime kanal #kanal')
+                            .setDescription('Kullanım: !!kelime kanal #kanal')
                             .setColor("#FFCC00");
                         message.channel.send(embed);
                         return;
