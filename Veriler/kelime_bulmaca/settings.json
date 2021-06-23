@@ -75,8 +75,8 @@
     },
     {
       "guild_id": "818151554770796594",
-      "son_kelime": "rakı",
-      "son_harf": "ı"
+      "son_kelime": "mezar",
+      "son_harf": "r"
     },
     {
       "guild_id": "793002254982578208",
@@ -179,11 +179,11 @@
       "puanlar": [
         {
           "client_id": "561609911415472148",
-          "puan": 129
+          "puan": 168
         },
         {
           "client_id": "403246711671095297",
-          "puan": 126
+          "puan": 165
         }
       ]
     },
@@ -632,7 +632,33 @@
         "tarak",
         "kek",
         "kır",
-        "rakı"
+        "rakı",
+        "ılıklaştırmak",
+        "katılaştırmak",
+        "kor",
+        "rosto",
+        "ot",
+        "tarumar",
+        "roka",
+        "atkı",
+        "ışımak",
+        "kalıplaşmak",
+        "katır",
+        "röportaj",
+        "jandarma",
+        "arma",
+        "am",
+        "mekan",
+        "nakarat",
+        "ter",
+        "radyoloji",
+        "iyonlaştırmak",
+        "kolay",
+        "yastık",
+        "kepek",
+        "kötü",
+        "üzüm",
+        "mezar"
       ]
     },
     {
