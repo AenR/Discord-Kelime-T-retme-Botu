@@ -31,7 +31,7 @@ module.exports = {
             if (mention_kanal) {
                 settings_channels[kanal_index].channel_id = mention_kanal.id;
                 const embed = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                     .setDescription('Kelime kanalı ayarlandı.')
                     .addField('Kelime Kanalı', mention_kanal)
                     .setColor("#FFCC00");
@@ -42,7 +42,7 @@ module.exports = {
                 return;
             }
             const embed = new Discord.MessageEmbed()
-                .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                 .setDescription('Kelime oyunu fonksiyonları için bir kanal ayarlanmalı.\nAyarlamak için **!!kelime kanal #kanal**')
                 .setColor("#FFCC00");
             message.channel.send(embed);
@@ -58,7 +58,7 @@ module.exports = {
                 if (settings_channels[kanal_index].channel_id && !args[1]) {
                     let available_channel = message.guild.channels.cache.get(settings_channels[kanal_index].channel_id);
                     const embed = new Discord.MessageEmbed()
-                        .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                        .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                         .addField('Ayarlı Kelime Kanalı', available_channel)
                         .setFooter('Değiştirmek için !!kelime kanal #kanal')
                         .setColor("#FFCC00");
@@ -69,7 +69,7 @@ module.exports = {
                     let mention_kanal = message.mentions.channels.first();
                     if (!mention_kanal) {
                         const embed = new Discord.MessageEmbed()
-                            .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                            .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                             .setDescription('Kullanım: !!kelime kanal #kanal')
                             .setColor("#FFCC00");
                         message.channel.send(embed);
@@ -77,7 +77,7 @@ module.exports = {
                     }
                     settings_channels[kanal_index].channel_id = mention_kanal.id;
                     const embed = new Discord.MessageEmbed()
-                        .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                        .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                         .setDescription('Kelime kanalı güncellendi.')
                         .addField('Yeni Kelime Kanalı', mention_kanal)
                         .setColor("#FFCC00");
@@ -99,7 +99,7 @@ module.exports = {
                 }
                 if (game_bool_index && game_bool_value == 'true') {
                     const embed = new Discord.MessageEmbed()
-                        .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                        .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                         .setDescription('Kelime oyunu zaten aktif.')
                         .setColor("#FFCC00");
                     message.channel.send(embed);
@@ -107,7 +107,7 @@ module.exports = {
                 }
                 settings_game_bool[game_bool_index].game_bool = 'true';
                 const embed = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                     .setDescription('Kelime oyunu aktif hale getirildi.')
                     .setColor("#FFCC00");
                 message.channel.send(embed);
@@ -126,7 +126,7 @@ module.exports = {
                 }
                 if (game_bool_index && game_bool_value == 'false') {
                     const embed = new Discord.MessageEmbed()
-                        .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                        .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                         .setDescription('Kelime oyunu zaten deaktif.')
                         .setColor("#FFCC00");
                     message.channel.send(embed);
@@ -134,7 +134,7 @@ module.exports = {
                 }
                 settings_game_bool[game_bool_index].game_bool = 'false';
                 const embeds = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                     .setDescription('Kelime oyunu deaktif hale getirildi.')
                     .setColor("#FFCC00");
                 message.channel.send(embeds);
@@ -191,7 +191,7 @@ module.exports = {
                         if (error) {
                             console.error(error);
                             const embed = new Discord.MessageEmbed()
-                                .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                                .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                                 .setDescription(`Bir sorun oluştu lütfen yöneticiyle iletişime geçin. ${error}`)
                                 .setColor("#FFCC00");
                             message.channel.send(embed);
@@ -223,14 +223,14 @@ module.exports = {
                     client_puan = 0;
                 }
                 const embedd = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                     .setDescription(`Kelime oyundaki toplam puanın: **${client_puan}**`)
                     .setColor("#FFCC00");
                 message.channel.send(embedd).then(del => del.delete({ timeout: 15000 }, message.delete({ timeout: 15000 })));
                 break;
             default:
                 const embedsss = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
                     .setDescription('Bilinmeyen komut.')
                     .setColor("#FFCC00");
                 message.channel.send(embedsss).then(del => del.delete({ timeout: 7000 }, message.delete({ timeout: 7000 })));
@@ -238,7 +238,7 @@ module.exports = {
           case 'komutlar':
             const embedkomutlar = new Discord.MessageEmbed()
         .setColor('#ffcc00')
-        .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
+        .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/yr4xpYJvvp')
         .setTitle('Komutlar:')
         .addField(`!!yardım`, 'Bot hakkında bilgi almanızı sağlar.')
 		    .addField(`!!kelime anlam "kelime"`, 'Yazdığınız kelimenin anlamını öğrenmenizi sağlar.')
@@ -254,7 +254,7 @@ module.exports = {
           case 'istatistik':
             const embedistatistik = new Discord.MessageEmbed()
               .setColor("#FFCC00")
-              .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
+              .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/yr4xpYJvvp')
               .setTitle("İstatisikler:")
               .addField("Sunucu Sayısı ", `${client.guilds.cache.size.toLocaleString()}`, true)
               .addField("Toplam Kullanıcı Sayısı ", `${client.guilds.cache.reduce((a, b) => a + b.memberCount, 0).toLocaleString()}`, true)
@@ -264,7 +264,7 @@ module.exports = {
           case 'kullanım':
             const embedkullanim = new Discord.MessageEmbed()
               .setColor("#FFCC00")
-              .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
+              .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/yr4xpYJvvp')
               .setTitle("Botun Kullanımı:")
               .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg')
               .addField(`1-)`, 'Öncelikle "!!kelime kanal #kanal" ile kanal seçiyoruz.')

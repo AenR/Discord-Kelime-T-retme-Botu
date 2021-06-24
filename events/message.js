@@ -30,7 +30,7 @@ module.exports = (client, message) => {
             var reg = /\s[^a-zA-Z]/g;
             if(global.fullarr.son_kelime_yazan[son_kelime_yazan_index].son_kelime_yazan == message.author.id){
                 const embed = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                     .setDescription(`${message.author.username}, üst üste yazamazsınız.`)
                     .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
@@ -38,7 +38,7 @@ module.exports = (client, message) => {
             }
             if(kelime.match(reg)){
                 const embed = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                     .setDescription(`**${kelime}**, geçersiz karakter içeriyor. Lütfen sadece türkçe karakter ve harf kullanın.`)
                     .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
@@ -47,7 +47,7 @@ module.exports = (client, message) => {
             if(global.fullarr.son_kelime[son_kelime_index].son_harf && global.fullarr.son_kelime[son_kelime_index].son_harf !== kelime[0]){
                 let stngssonharf = global.fullarr.son_kelime[son_kelime_index].son_harf;
                 const embed = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                     .setDescription(`**${kelime}**, bu kelime **${stngssonharf}** ile başlamıyor.`)
                     .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
@@ -55,7 +55,7 @@ module.exports = (client, message) => {
             }
             if(global.fullarr.kullanilan_kelimeler_guilds[kullanilan_kelimeler_guilds_index].kullanilan_kelimeler.includes(kelime)){
                 const embed = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                     .setDescription(`**${kelime}**, bu kelime daha önce kullanılmış.`)
                     .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
@@ -63,7 +63,7 @@ module.exports = (client, message) => {
             }
             if(kelime.length <= 1){
                 const embed = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                     .setDescription(`Yazmış olduğun **${kelime}** kelimesi çok kısa.`)
                     .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
@@ -72,7 +72,7 @@ module.exports = (client, message) => {
             if(sonharf == 'ğ' && global.fullarr.kullanilan_kelimeler_guilds[kullanilan_kelimeler_guilds_index].kullanilan_kelimeler.length < 1500){
                 let kalan_kelime = 1500 - global.fullarr.kullanilan_kelimeler_guilds[kullanilan_kelimeler_guilds_index].kullanilan_kelimeler.length;
                 const embed = new Discord.MessageEmbed()
-                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/FbUmuMbvEb")
+                    .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                     .setDescription(`Oyun bitirici kelimeleri yazmak için biraz daha oynamanız gerekmekte.\nKalan kelime sayısı **${kalan_kelime}**`)
                     .setColor("#FFCC00");
                 message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
@@ -88,7 +88,7 @@ module.exports = (client, message) => {
                     if (error) {
                         console.error(error);
                         const embed = new Discord.MessageEmbed()
-                            .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/FbUmuMbvEb")
+                            .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                             .setDescription(`Bir sorun oluştu lütfen yöneticiyle iletişime geçin. ${error}`)
                             .setColor("#FFCC00");
                         message.channel.send(embed);
@@ -96,7 +96,7 @@ module.exports = (client, message) => {
                     }
                     if(body.error){
                         const embed = new Discord.MessageEmbed()
-                            .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/FbUmuMbvEb")
+                            .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                             .setDescription(`**${kelime}**, bu kelime **Türk Dil Kurumunda** bulunamadı.`)
                             .setColor("#FFCC00");
                             message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
@@ -104,7 +104,7 @@ module.exports = (client, message) => {
                     }
                     if(global.fullarr.kullanilan_kelimeler_guilds[kullanilan_kelimeler_guilds_index].kullanilan_kelimeler.includes(kelime)){
                         const embed = new Discord.MessageEmbed()
-                            .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/FbUmuMbvEb")
+                            .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                             .setDescription(`**${kelime}**, bu kelime daha önce kullanılmış.`)
                             .setColor("#FFCC00");
                         message.channel.send(embed).then(del => del.delete({timeout:2000} , message.delete({timeout:2000})));
@@ -125,7 +125,7 @@ module.exports = (client, message) => {
                     global.fullarr.son_kelime[son_kelime_index].son_harf = sonharf;
                     if(sonharf == 'ğ' && global.fullarr.kullanilan_kelimeler_guilds[kullanilan_kelimeler_guilds_index].kullanilan_kelimeler.length >= 1500){
                         const embed = new Discord.MessageEmbed()
-                            .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/FbUmuMbvEb")
+                            .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                             .setDescription(`${message.author},  Kilit kelimeyi yazarak oyunu bitirdi tebrikler birazdan yeni oyun başlayacak <3.`)
                             .setColor("#FFCC00");
                         message.channel.send(embed);
