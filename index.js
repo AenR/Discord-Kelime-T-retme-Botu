@@ -146,6 +146,12 @@ client.on('ready', async () => {
   }
 });
   
+client.on("message", message => {
+    if (message.mentions.has(client.user.id)) {
+        message.channel.send("Yardım almak için **!!yardım** yazınız.");
+    };
+});
+  
     client.channels.cache.get("856237979168538644").join(); //KEKE
     client.channels.cache.get("856442949453348867").join(); //Kendi sunucusu
     //client.user.setActivity('🔥 AenR Kelime Botu 🔥 !!kelime komutlar', { type: 'LISTENING' });
