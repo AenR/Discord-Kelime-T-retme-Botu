@@ -19,7 +19,7 @@ module.exports = client => {
     "🔥 AenR Kelime Botu 🔥",
     `${client.guilds.cache.size} 💻 sunucuya hizmet veriyor.`,
     `${client.users.cache.size} 🎩 kullanıcıya hizmet veriyor.`,
-    "discord.gg/yr4xpYJvvp 🔗 davet sunucusu linki.",
+    "discord.gg/yr4xpYJvvp 🔗 destek sunucusu linki.",
     "🤖 !!yardım 🤖 !!kelime komutlar 🤖"
 
   ];
