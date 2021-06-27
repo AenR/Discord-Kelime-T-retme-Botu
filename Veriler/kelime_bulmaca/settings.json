@@ -111,8 +111,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "askı",
-      "son_harf": "ı"
+      "son_kelime": "ısırgan",
+      "son_harf": "n"
     }
   ],
   "son_kelime_yazan": [
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "535033289346514964"
+      "son_kelime_yazan": "329581652785233920"
     }
   ],
   "puanlar": [
@@ -255,6 +255,10 @@
         {
           "client_id": "535033289346514964",
           "puan": 6
+        },
+        {
+          "client_id": "329581652785233920",
+          "puan": 3
         }
       ]
     }
@@ -746,7 +750,8 @@
         "kalem",
         "mensup",
         "para",
-        "askı"
+        "askı",
+        "ısırgan"
       ]
     }
   ]
