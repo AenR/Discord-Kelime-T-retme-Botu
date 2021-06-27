@@ -111,7 +111,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "rahat",
+      "son_kelime": "tost",
       "son_harf": "t"
     }
   ],
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "429981889181253634"
+      "son_kelime_yazan": "329581652785233920"
     }
   ],
   "puanlar": [
@@ -258,7 +258,7 @@
         },
         {
           "client_id": "329581652785233920",
-          "puan": 3
+          "puan": 6
         }
       ]
     }
@@ -753,7 +753,8 @@
         "askı",
         "ısırgan",
         "nar",
-        "rahat"
+        "rahat",
+        "tost"
       ]
     }
   ]
