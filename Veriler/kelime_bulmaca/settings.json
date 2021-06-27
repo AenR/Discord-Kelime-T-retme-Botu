@@ -32,7 +32,8 @@
       "guild_id": "824679165553803264"
     },
     {
-      "guild_id": "784698301835771924"
+      "guild_id": "784698301835771924",
+      "game_bool": "true"
     }
   ],
   "channels": [
@@ -68,7 +69,8 @@
       "guild_id": "824679165553803264"
     },
     {
-      "guild_id": "784698301835771924"
+      "guild_id": "784698301835771924",
+      "channel_id": "858676955594620938"
     }
   ],
   "son_kelime": [
@@ -108,7 +110,9 @@
       "guild_id": "824679165553803264"
     },
     {
-      "guild_id": "784698301835771924"
+      "guild_id": "784698301835771924",
+      "son_kelime": "askı",
+      "son_harf": "ı"
     }
   ],
   "son_kelime_yazan": [
@@ -144,7 +148,8 @@
       "guild_id": "824679165553803264"
     },
     {
-      "guild_id": "784698301835771924"
+      "guild_id": "784698301835771924",
+      "son_kelime_yazan": "535033289346514964"
     }
   ],
   "puanlar": [
@@ -242,7 +247,16 @@
     },
     {
       "guild_id": "784698301835771924",
-      "puanlar": []
+      "puanlar": [
+        {
+          "client_id": "429981889181253634",
+          "puan": 6
+        },
+        {
+          "client_id": "535033289346514964",
+          "puan": 6
+        }
+      ]
     }
   ],
   "kullanilan_kelimeler_guilds": [
@@ -728,7 +742,12 @@
     },
     {
       "guild_id": "784698301835771924",
-      "kullanilan_kelimeler": []
+      "kullanilan_kelimeler": [
+        "kalem",
+        "mensup",
+        "para",
+        "askı"
+      ]
     }
   ]
 }
