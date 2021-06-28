@@ -159,6 +159,17 @@ client.on("message", message => {
     };
 });
   
+client.on("message", message => {
+    if (message.content.toLowerCase() === config.prefix + 'sahip') {
+      const embedsahip = new Discord.MessageEmbed()
+        .setColor('#ffcc00')
+        .setAuthor('AenR#0663', 'https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg', 'https://discord.gg/FbUmuMbvEb')
+        .addField(`Bot Sahibi`, `<@535033289346514964>`, )
+        .setThumbnail('https://cdn.discordapp.com/attachments/802906619234222081/856207093413183508/tan-yellow-pp.jpg');
+        message.channel.send(embedsahip);
+    };
+});
+  
     client.channels.cache.get("856442949453348867").join(); //Kendi sunucusu
     //client.user.setActivity('🔥 AenR Kelime Botu 🔥 !!kelime komutlar', { type: 'LISTENING' });
     //client.user.setActivity(client.guilds.cache.size + " sunucuya hizmet veriyor.", {type: 'LISTENING'});
