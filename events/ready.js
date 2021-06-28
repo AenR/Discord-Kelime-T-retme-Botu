@@ -20,7 +20,7 @@ module.exports = client => {
     `${client.guilds.cache.size} 💻 sunucuya hizmet veriyor.`,
     `${client.users.cache.size} 🎩 kullanıcıya hizmet veriyor.`,
     "discord.gg/yr4xpYJvvp 🔗 destek sunucusu linki.",
-    "🤖 !!yardım 🤖 !!kelime komutlar 🤖"
+    "🤖 !!yardım 🤖 !!kelime komutlar 🤖",
 
   ];
 

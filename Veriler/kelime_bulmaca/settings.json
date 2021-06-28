@@ -111,8 +111,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "taksit",
-      "son_harf": "t"
+      "son_kelime": "harita",
+      "son_harf": "a"
     }
   ],
   "son_kelime_yazan": [
@@ -254,11 +254,15 @@
         },
         {
           "client_id": "535033289346514964",
-          "puan": 12
+          "puan": 15
         },
         {
           "client_id": "329581652785233920",
           "puan": 6
+        },
+        {
+          "client_id": "831241465559646261",
+          "puan": 3
         }
       ]
     }
@@ -755,7 +759,9 @@
         "nar",
         "rahat",
         "tost",
-        "taksit"
+        "taksit",
+        "tarih",
+        "harita"
       ]
     }
   ]
