@@ -111,8 +111,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "karış",
-      "son_harf": "ş"
+      "son_kelime": "şahin",
+      "son_harf": "n"
     }
   ],
   "son_kelime_yazan": [
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "535033289346514964"
+      "son_kelime_yazan": "831241465559646261"
     }
   ],
   "puanlar": [
@@ -262,7 +262,7 @@
         },
         {
           "client_id": "831241465559646261",
-          "puan": 3
+          "puan": 6
         },
         {
           "client_id": "602556463419883520",
@@ -773,7 +773,8 @@
         "adana",
         "ağrı",
         "ırak",
-        "karış"
+        "karış",
+        "şahin"
       ]
     }
   ]
