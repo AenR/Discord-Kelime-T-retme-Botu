@@ -81,8 +81,8 @@
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "tekerlek",
-      "son_harf": "k"
+      "son_kelime": "kul",
+      "son_harf": "l"
     },
     {
       "guild_id": "735903380139933838"
@@ -122,7 +122,7 @@
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime_yazan": "778544391706771466"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "735903380139933838"
@@ -183,7 +183,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 420
+          "puan": 423
         },
         {
           "client_id": "264052871140474880",
@@ -611,7 +611,8 @@
         "acı",
         "ızdırap",
         "palet",
-        "tekerlek"
+        "tekerlek",
+        "kul"
       ]
     },
     {
