@@ -76,8 +76,8 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "aktör",
-      "son_harf": "r"
+      "son_kelime": "renk",
+      "son_harf": "k"
     },
     {
       "guild_id": "856442948890918932",
@@ -158,7 +158,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 804
+          "puan": 822
         },
         {
           "client_id": "264052871140474880",
@@ -178,7 +178,7 @@
         },
         {
           "client_id": "389431124058832896",
-          "puan": 3
+          "puan": 21
         }
       ]
     },
@@ -331,7 +331,19 @@
         "travmatik",
         "kir",
         "roka",
-        "aktör"
+        "aktör",
+        "rakı",
+        "ıkınma",
+        "anne",
+        "emme",
+        "emek",
+        "karpuz",
+        "zina",
+        "aciz",
+        "zam",
+        "macun",
+        "nar",
+        "renk"
       ]
     },
     {
