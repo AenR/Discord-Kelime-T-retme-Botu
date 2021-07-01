@@ -111,7 +111,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "rimel",
+      "son_kelime": "legal",
       "son_harf": "l"
     }
   ],
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "329581652785233920"
+      "son_kelime_yazan": "535033289346514964"
     }
   ],
   "puanlar": [
@@ -254,7 +254,7 @@
         },
         {
           "client_id": "535033289346514964",
-          "puan": 27
+          "puan": 30
         },
         {
           "client_id": "329581652785233920",
@@ -780,7 +780,8 @@
         "lamel",
         "lamba",
         "ambar",
-        "rimel"
+        "rimel",
+        "legal"
       ]
     }
   ]
