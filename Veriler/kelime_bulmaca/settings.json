@@ -111,8 +111,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "ambar",
-      "son_harf": "r"
+      "son_kelime": "rimel",
+      "son_harf": "l"
     }
   ],
   "son_kelime_yazan": [
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "803690480872980491"
+      "son_kelime_yazan": "329581652785233920"
     }
   ],
   "puanlar": [
@@ -258,7 +258,7 @@
         },
         {
           "client_id": "329581652785233920",
-          "puan": 6
+          "puan": 9
         },
         {
           "client_id": "831241465559646261",
@@ -779,7 +779,8 @@
         "nasıl",
         "lamel",
         "lamba",
-        "ambar"
+        "ambar",
+        "rimel"
       ]
     }
   ]
