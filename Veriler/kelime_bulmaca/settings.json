@@ -111,8 +111,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "kira",
-      "son_harf": "a"
+      "son_kelime": "ali",
+      "son_harf": "i"
     }
   ],
   "son_kelime_yazan": [
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "429981889181253634"
+      "son_kelime_yazan": "602556463419883520"
     }
   ],
   "puanlar": [
@@ -274,7 +274,7 @@
         },
         {
           "client_id": "602556463419883520",
-          "puan": 3
+          "puan": 6
         },
         {
           "client_id": "803690480872980491",
@@ -856,7 +856,8 @@
         "renk",
         "kare",
         "erik",
-        "kira"
+        "kira",
+        "ali"
       ]
     }
   ]
