@@ -76,8 +76,8 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "ibibik",
-      "son_harf": "k"
+      "son_kelime": "lamba",
+      "son_harf": "a"
     },
     {
       "guild_id": "856442948890918932",
@@ -158,11 +158,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 975
+          "puan": 1035
         },
         {
           "client_id": "264052871140474880",
-          "puan": 873
+          "puan": 933
         },
         {
           "client_id": "551120440584699904",
@@ -461,7 +461,47 @@
         "zifiri",
         "ilik",
         "kirpi",
-        "ibibik"
+        "ibibik",
+        "kısır",
+        "rahle",
+        "eski",
+        "iş",
+        "şike",
+        "eksik",
+        "kirve",
+        "evirme",
+        "evrimleşme",
+        "ekşime",
+        "eşik",
+        "kısas",
+        "sakınca",
+        "askı",
+        "ıslık",
+        "kasık",
+        "kamyonet",
+        "tekerlek",
+        "kofti",
+        "iç",
+        "çingen",
+        "nazlı",
+        "ılıca",
+        "acun",
+        "nefis",
+        "sıra",
+        "askeri",
+        "iktidar",
+        "raks",
+        "sakız",
+        "zift",
+        "traktör",
+        "rektör",
+        "resmi",
+        "ivedi",
+        "intizar",
+        "reşit",
+        "tıraş",
+        "şekil",
+        "lamba"
       ]
     },
     {
