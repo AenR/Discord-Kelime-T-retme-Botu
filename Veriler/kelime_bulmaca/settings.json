@@ -76,8 +76,8 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "lamba",
-      "son_harf": "a"
+      "son_kelime": "nitel",
+      "son_harf": "l"
     },
     {
       "guild_id": "856442948890918932",
@@ -158,11 +158,11 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 1035
+          "puan": 1089
         },
         {
           "client_id": "264052871140474880",
-          "puan": 933
+          "puan": 987
         },
         {
           "client_id": "551120440584699904",
@@ -501,7 +501,43 @@
         "reşit",
         "tıraş",
         "şekil",
-        "lamba"
+        "lamba",
+        "andaç",
+        "çakıl",
+        "levrek",
+        "kaş",
+        "şemsiye",
+        "endam",
+        "mavi",
+        "ihsan",
+        "nakış",
+        "şakşak",
+        "kapora",
+        "afrika",
+        "asık",
+        "kesme",
+        "eskici",
+        "irfan",
+        "nefret",
+        "terim",
+        "mikail",
+        "lapa",
+        "askeriye",
+        "elleme",
+        "eşek",
+        "kürt",
+        "türk",
+        "kaşar",
+        "resmiyet",
+        "teşekkür",
+        "risk",
+        "kriz",
+        "zevk",
+        "keriz",
+        "zeki",
+        "ilahiyat",
+        "tırpan",
+        "nitel"
       ]
     },
     {
