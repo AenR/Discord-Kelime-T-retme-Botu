@@ -111,8 +111,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "zor",
-      "son_harf": "r"
+      "son_kelime": "terzi",
+      "son_harf": "i"
     }
   ],
   "son_kelime_yazan": [
@@ -258,11 +258,11 @@
       "puanlar": [
         {
           "client_id": "429981889181253634",
-          "puan": 24
+          "puan": 27
         },
         {
           "client_id": "535033289346514964",
-          "puan": 36
+          "puan": 39
         },
         {
           "client_id": "329581652785233920",
@@ -1013,7 +1013,9 @@
         "ali",
         "ilham",
         "maruz",
-        "zor"
+        "zor",
+        "raket",
+        "terzi"
       ]
     }
   ]
