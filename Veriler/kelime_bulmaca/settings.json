@@ -111,7 +111,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "tükürük",
+      "son_kelime": "kelek",
       "son_harf": "k"
     }
   ],
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "329581652785233920"
+      "son_kelime_yazan": "602556463419883520"
     }
   ],
   "puanlar": [
@@ -274,7 +274,7 @@
         },
         {
           "client_id": "602556463419883520",
-          "puan": 6
+          "puan": 9
         },
         {
           "client_id": "803690480872980491",
@@ -1017,7 +1017,8 @@
         "raket",
         "terzi",
         "iktisat",
-        "tükürük"
+        "tükürük",
+        "kelek"
       ]
     }
   ]
