@@ -81,8 +81,8 @@
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "keşkek",
-      "son_harf": "k"
+      "son_kelime": "karı",
+      "son_harf": "ı"
     },
     {
       "guild_id": "735903380139933838"
@@ -122,7 +122,7 @@
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime_yazan": "535033289346514964"
+      "son_kelime_yazan": "473571468794658826"
     },
     {
       "guild_id": "735903380139933838"
@@ -207,7 +207,7 @@
         },
         {
           "client_id": "473571468794658826",
-          "puan": 3
+          "puan": 6
         }
       ]
     },
@@ -847,7 +847,8 @@
         "tekerlek",
         "kul",
         "levrek",
-        "keşkek"
+        "keşkek",
+        "karı"
       ]
     },
     {
