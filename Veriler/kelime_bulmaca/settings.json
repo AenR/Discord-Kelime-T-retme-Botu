@@ -89,7 +89,7 @@
     },
     {
       "guild_id": "818151554770796594",
-      "son_kelime": "tekbir",
+      "son_kelime": "ter",
       "son_harf": "r"
     },
     {
@@ -129,7 +129,7 @@
     },
     {
       "guild_id": "818151554770796594",
-      "son_kelime_yazan": "561609911415472148"
+      "son_kelime_yazan": "815666990433173544"
     },
     {
       "guild_id": "793002254982578208",
@@ -232,11 +232,11 @@
         },
         {
           "client_id": "442621385370763264",
-          "puan": 15
+          "puan": 18
         },
         {
           "client_id": "815666990433173544",
-          "puan": 30
+          "puan": 33
         }
       ]
     },
@@ -878,7 +878,9 @@
         "islam",
         "mayın",
         "nakarat",
-        "tekbir"
+        "tekbir",
+        "rahat",
+        "ter"
       ]
     },
     {
