@@ -89,8 +89,8 @@
     },
     {
       "guild_id": "818151554770796594",
-      "son_kelime": "ter",
-      "son_harf": "r"
+      "son_kelime": "uç",
+      "son_harf": "ç"
     },
     {
       "guild_id": "793002254982578208",
@@ -129,7 +129,7 @@
     },
     {
       "guild_id": "818151554770796594",
-      "son_kelime_yazan": "815666990433173544"
+      "son_kelime_yazan": "403246711671095297"
     },
     {
       "guild_id": "793002254982578208",
@@ -220,11 +220,11 @@
       "puanlar": [
         {
           "client_id": "561609911415472148",
-          "puan": 171
+          "puan": 177
         },
         {
           "client_id": "403246711671095297",
-          "puan": 183
+          "puan": 189
         },
         {
           "client_id": "794956566012231722",
@@ -880,7 +880,11 @@
         "nakarat",
         "tekbir",
         "rahat",
-        "ter"
+        "ter",
+        "rüku",
+        "ulaşmak",
+        "kamu",
+        "uç"
       ]
     },
     {
