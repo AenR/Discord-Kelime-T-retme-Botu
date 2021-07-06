@@ -89,8 +89,8 @@
     },
     {
       "guild_id": "818151554770796594",
-      "son_kelime": "nakarat",
-      "son_harf": "t"
+      "son_kelime": "tekbir",
+      "son_harf": "r"
     },
     {
       "guild_id": "793002254982578208",
@@ -129,7 +129,7 @@
     },
     {
       "guild_id": "818151554770796594",
-      "son_kelime_yazan": "403246711671095297"
+      "son_kelime_yazan": "561609911415472148"
     },
     {
       "guild_id": "793002254982578208",
@@ -220,7 +220,7 @@
       "puanlar": [
         {
           "client_id": "561609911415472148",
-          "puan": 168
+          "puan": 171
         },
         {
           "client_id": "403246711671095297",
@@ -877,7 +877,8 @@
         "mermi",
         "islam",
         "mayın",
-        "nakarat"
+        "nakarat",
+        "tekbir"
       ]
     },
     {
