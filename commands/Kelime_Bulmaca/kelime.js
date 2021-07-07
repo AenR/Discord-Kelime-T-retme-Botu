@@ -192,7 +192,7 @@ module.exports = {
                             console.error(error);
                             const embed = new Discord.MessageEmbed()
                                 .setAuthor(message.author.username, message.author.avatarURL(), "https://discord.gg/yr4xpYJvvp")
-                                .setDescription(`Bir sorun oluştu lütfen yöneticiyle iletişime geçin. ${error}`)
+                                .setDescription(`Bir sorun oluştu. Hata Kodu: ${error}`)
                                 .setColor("#FFCC00");
                             message.channel.send(embed);
                             return;

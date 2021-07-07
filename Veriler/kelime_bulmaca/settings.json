@@ -76,13 +76,13 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "misket",
-      "son_harf": "t"
+      "son_kelime": "tekzip",
+      "son_harf": "p"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "karı",
-      "son_harf": "ı"
+      "son_kelime": "ıstırap",
+      "son_harf": "p"
     },
     {
       "guild_id": "735903380139933838"
@@ -111,18 +111,18 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "kelek",
-      "son_harf": "k"
+      "son_kelime": "kampüs",
+      "son_harf": "s"
     }
   ],
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "264052871140474880"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime_yazan": "473571468794658826"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "735903380139933838"
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "602556463419883520"
+      "son_kelime_yazan": "535033289346514964"
     }
   ],
   "puanlar": [
@@ -158,7 +158,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 1101
+          "puan": 1104
         },
         {
           "client_id": "264052871140474880",
@@ -187,7 +187,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 426
+          "puan": 429
         },
         {
           "client_id": "264052871140474880",
@@ -274,7 +274,7 @@
         },
         {
           "client_id": "535033289346514964",
-          "puan": 42
+          "puan": 45
         },
         {
           "client_id": "329581652785233920",
@@ -558,7 +558,8 @@
         "lakırtı",
         "ırz",
         "zalim",
-        "misket"
+        "misket",
+        "tekzip"
       ]
     },
     {
@@ -848,7 +849,8 @@
         "kul",
         "levrek",
         "keşkek",
-        "karı"
+        "karı",
+        "ıstırap"
       ]
     },
     {
@@ -947,7 +949,8 @@
         "terzi",
         "iktisat",
         "tükürük",
-        "kelek"
+        "kelek",
+        "kampüs"
       ]
     }
   ]
