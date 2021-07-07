@@ -111,8 +111,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "seramik",
-      "son_harf": "k"
+      "son_kelime": "kundura",
+      "son_harf": "a"
     }
   ],
   "son_kelime_yazan": [
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "831241465559646261"
+      "son_kelime_yazan": "860900694205399060"
     }
   ],
   "puanlar": [
@@ -298,6 +298,10 @@
         },
         {
           "client_id": "795783811161128982",
+          "puan": 3
+        },
+        {
+          "client_id": "860900694205399060",
           "puan": 3
         }
       ]
@@ -951,7 +955,8 @@
         "tükürük",
         "kelek",
         "kampüs",
-        "seramik"
+        "seramik",
+        "kundura"
       ]
     }
   ]
