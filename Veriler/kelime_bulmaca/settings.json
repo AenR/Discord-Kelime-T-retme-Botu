@@ -111,8 +111,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "kampüs",
-      "son_harf": "s"
+      "son_kelime": "seramik",
+      "son_harf": "k"
     }
   ],
   "son_kelime_yazan": [
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "535033289346514964"
+      "son_kelime_yazan": "831241465559646261"
     }
   ],
   "puanlar": [
@@ -282,7 +282,7 @@
         },
         {
           "client_id": "831241465559646261",
-          "puan": 6
+          "puan": 9
         },
         {
           "client_id": "602556463419883520",
@@ -950,7 +950,8 @@
         "iktisat",
         "tükürük",
         "kelek",
-        "kampüs"
+        "kampüs",
+        "seramik"
       ]
     }
   ]
