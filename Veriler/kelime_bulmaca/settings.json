@@ -111,8 +111,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "turist",
-      "son_harf": "t"
+      "son_kelime": "torba",
+      "son_harf": "a"
     }
   ],
   "son_kelime_yazan": [
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "860900694205399060"
+      "son_kelime_yazan": "329581652785233920"
     }
   ],
   "puanlar": [
@@ -278,7 +278,7 @@
         },
         {
           "client_id": "329581652785233920",
-          "puan": 15
+          "puan": 18
         },
         {
           "client_id": "831241465559646261",
@@ -971,7 +971,8 @@
         "emanet",
         "torna",
         "aparat",
-        "turist"
+        "turist",
+        "torba"
       ]
     }
   ]
