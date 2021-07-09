@@ -111,8 +111,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "emanet",
-      "son_harf": "t"
+      "son_kelime": "torna",
+      "son_harf": "a"
     }
   ],
   "son_kelime_yazan": [
@@ -149,7 +149,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "831241465559646261"
+      "son_kelime_yazan": "406927787484643328"
     }
   ],
   "puanlar": [
@@ -306,7 +306,7 @@
         },
         {
           "client_id": "406927787484643328",
-          "puan": 3
+          "puan": 6
         }
       ]
     }
@@ -967,7 +967,8 @@
         "kundura",
         "astım",
         "maske",
-        "emanet"
+        "emanet",
+        "torna"
       ]
     }
   ]
