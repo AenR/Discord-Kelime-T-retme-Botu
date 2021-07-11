@@ -34,6 +34,9 @@
     {
       "guild_id": "784698301835771924",
       "game_bool": "true"
+    },
+    {
+      "guild_id": "333949691962195969"
     }
   ],
   "channels": [
@@ -71,6 +74,9 @@
     {
       "guild_id": "784698301835771924",
       "channel_id": "858676955594620938"
+    },
+    {
+      "guild_id": "333949691962195969"
     }
   ],
   "son_kelime": [
@@ -113,6 +119,9 @@
       "guild_id": "784698301835771924",
       "son_kelime": "ızdırap",
       "son_harf": "p"
+    },
+    {
+      "guild_id": "333949691962195969"
     }
   ],
   "son_kelime_yazan": [
@@ -150,6 +159,9 @@
     {
       "guild_id": "784698301835771924",
       "son_kelime_yazan": "831241465559646261"
+    },
+    {
+      "guild_id": "333949691962195969"
     }
   ],
   "puanlar": [
@@ -309,6 +321,10 @@
           "puan": 6
         }
       ]
+    },
+    {
+      "guild_id": "333949691962195969",
+      "puanlar": []
     }
   ],
   "kullanilan_kelimeler_guilds": [
@@ -976,6 +992,10 @@
         "akıntı",
         "ızdırap"
       ]
+    },
+    {
+      "guild_id": "333949691962195969",
+      "kullanilan_kelimeler": []
     }
   ]
 }
