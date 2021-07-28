@@ -117,8 +117,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "allah",
-      "son_harf": "h"
+      "son_kelime": "hasır",
+      "son_harf": "r"
     },
     {
       "guild_id": "333949691962195969"
@@ -158,7 +158,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "602556463419883520"
+      "son_kelime_yazan": "406927787484643328"
     },
     {
       "guild_id": "333949691962195969"
@@ -318,7 +318,7 @@
         },
         {
           "client_id": "406927787484643328",
-          "puan": 21
+          "puan": 24
         },
         {
           "client_id": "522816173835026436",
@@ -1086,7 +1086,8 @@
         "zoka",
         "anahtarlık",
         "kıta",
-        "allah"
+        "allah",
+        "hasır"
       ]
     },
     {
