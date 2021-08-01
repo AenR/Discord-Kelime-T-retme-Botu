@@ -117,8 +117,8 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime": "trabzon",
-      "son_harf": "n"
+      "son_kelime": "nafile",
+      "son_harf": "e"
     },
     {
       "guild_id": "333949691962195969"
@@ -158,7 +158,7 @@
     },
     {
       "guild_id": "784698301835771924",
-      "son_kelime_yazan": "429981889181253634"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "333949691962195969"
@@ -286,7 +286,7 @@
         },
         {
           "client_id": "535033289346514964",
-          "puan": 81
+          "puan": 84
         },
         {
           "client_id": "329581652785233920",
@@ -1134,7 +1134,8 @@
         "reyhan",
         "namahrem",
         "mahlukat",
-        "trabzon"
+        "trabzon",
+        "nafile"
       ]
     },
     {
