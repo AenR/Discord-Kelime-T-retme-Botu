@@ -90,6 +90,7 @@ module.exports = (client, message) => {
                         const embed = new Discord.MessageEmbed()
                             .setAuthor(message.author.username, message.author.avatarURL(),"https://discord.gg/yr4xpYJvvp")
                             .setDescription(`Bir sorun oluştu lütfen yöneticiyle iletişime geçin. ${error}`)
+                            .setDescription(`Lütfen iletişime geçmeden önce aynı kelimeyi tekrar yazmayı deneyin.`)
                             .setColor("#FFCC00");
                         message.channel.send(embed);
                         return;
@@ -111,7 +112,7 @@ module.exports = (client, message) => {
                         return;
                     }
 		            global.fullarr.kullanilan_kelimeler_guilds[kullanilan_kelimeler_guilds_index].kullanilan_kelimeler.push(kelime);
-                    message.react('💯');
+                    message.react('👌');
                     if(puanlar_client_index == -1){
                         global.fullarr.puanlar[puanlar_guilds_index].puanlar.push({
                             client_id : message.author.id,
