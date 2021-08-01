@@ -111,7 +111,7 @@ module.exports = (client, message) => {
                         return;
                     }
 		            global.fullarr.kullanilan_kelimeler_guilds[kullanilan_kelimeler_guilds_index].kullanilan_kelimeler.push(kelime);
-                    message.react('👌');
+                    message.react('💯');
                     if(puanlar_client_index == -1){
                         global.fullarr.puanlar[puanlar_guilds_index].puanlar.push({
                             client_id : message.author.id,

@@ -82,13 +82,13 @@
   "son_kelime": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime": "piç",
-      "son_harf": "ç"
+      "son_kelime": "çirkin",
+      "son_harf": "n"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime": "parti",
-      "son_harf": "i"
+      "son_kelime": "ilham",
+      "son_harf": "m"
     },
     {
       "guild_id": "735903380139933838"
@@ -127,11 +127,11 @@
   "son_kelime_yazan": [
     {
       "guild_id": "796080327726465055",
-      "son_kelime_yazan": "389431124058832896"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "856442948890918932",
-      "son_kelime_yazan": "473571468794658826"
+      "son_kelime_yazan": "535033289346514964"
     },
     {
       "guild_id": "735903380139933838"
@@ -170,7 +170,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 1104
+          "puan": 1107
         },
         {
           "client_id": "264052871140474880",
@@ -199,7 +199,7 @@
       "puanlar": [
         {
           "client_id": "535033289346514964",
-          "puan": 429
+          "puan": 432
         },
         {
           "client_id": "264052871140474880",
@@ -604,7 +604,8 @@
         "zalim",
         "misket",
         "tekzip",
-        "piç"
+        "piç",
+        "çirkin"
       ]
     },
     {
@@ -896,7 +897,8 @@
         "keşkek",
         "karı",
         "ıstırap",
-        "parti"
+        "parti",
+        "ilham"
       ]
     },
     {
