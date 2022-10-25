@@ -1,2 +1,1 @@
-# kelime-bulmaca-discordJS
-Discord bot ile yapılmış basit kelimenin son harfiyle yeni kelime bulmaca oyunu.
+2021den kalma basit discord kelime türetme botu
