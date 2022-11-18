@@ -175,4 +175,4 @@ client.on("message", message => {
     //client.user.setActivity(client.guilds.cache.size + " sunucuya hizmet veriyor.", {type: 'LISTENING'});
     //console.log(`Logged in as ${client.user.tag}! - ${client.guilds.cache.size}`);
 });
-client.login(process.env.token);
+client.login("ODU2MjM4OTUzMjk2NjkxMjAw.GFkgkY.Fh8zFwhNf87EABbUc9k2BZl4BjJm6qFJ4F0KE0");
